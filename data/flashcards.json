@@ -1,0 +1,124 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "topic": "khoi-dau",
+      "front": "Vì sao tháng 12-1946 ta phải cầm súng?",
+      "back": "Thiện chí hòa bình của ta bị Pháp thẳng thừng cự tuyệt: Pháp cắt đứt liên hệ, đưa ba tối hậu thư đòi giải giáp, tấn công Hà Nội. Đảng và nhân dân chỉ còn một lựa chọn: cầm súng bảo vệ nền độc lập và chính quyền cách mạng."
+    },
+    {
+      "id": "fc-2",
+      "topic": "khoi-dau",
+      "front": "Sự kiện mở đầu cuộc kháng chiến toàn quốc?",
+      "back": "20 giờ ngày 19-12-1946, tại Hà Nội lúc 20 giờ 3 phút pháo đài Láng bắn loạt đại bác đầu tiên vào thành Hà Nội; đèn điện tắt, các lực lượng Vệ quốc đoàn, Tự vệ chiến đấu, Công an xung phong đồng loạt tấn công."
+    },
+    {
+      "id": "fc-3",
+      "topic": "khoi-dau",
+      "front": "60 ngày đêm Hà Nội (1946–1947) để lại kết quả gì?",
+      "back": "Giam chân địch trong thành phố, làm thất bại kế hoạch “đánh nhanh, thắng nhanh”, bảo toàn và phát triển lực lượng thành Trung đoàn Thủ đô; đến 17-2-1947 chủ động rút ra ngoại thành, lên chiến khu."
+    },
+    {
+      "id": "fc-4",
+      "topic": "duong-loi",
+      "front": "Nội dung cơ bản đường lối kháng chiến của Đảng (1945–1947)?",
+      "back": "Dựa trên sức mạnh toàn dân, tiến hành kháng chiến toàn dân, toàn diện, lâu dài và dựa vào sức mình là chính."
+    },
+    {
+      "id": "fc-5",
+      "topic": "duong-loi",
+      "front": "Kháng chiến toàn dân là gì?",
+      "back": "Đem toàn bộ sức dân, tài dân, lực dân; động viên toàn dân tham gia: “mỗi người dân là một chiến sĩ, mỗi làng xã là một pháo đài, mỗi đường phố là một mặt trận”. Quân đội nhân dân làm nòng cốt."
+    },
+    {
+      "id": "fc-6",
+      "topic": "duong-loi",
+      "front": "Kháng chiến toàn diện là gì?",
+      "back": "Đánh địch trên mọi lĩnh vực: quân sự, chính trị, kinh tế, văn hóa, tư tưởng, ngoại giao; trong đó mặt trận quân sự, đấu tranh vũ trang giữ vai trò mũi nhọn, mang tính quyết định."
+    },
+    {
+      "id": "fc-7",
+      "topic": "duong-loi",
+      "front": "Kháng chiến lâu dài được hiểu đúng thế nào?",
+      "back": "Trường kỳ kháng chiến: vừa đánh tiêu hao địch, vừa xây dựng phát triển lực lượng ta, lấy thời gian làm lực lượng vật chất để chuyển hóa yếu thành mạnh — nhưng không kéo dài vô thời hạn, phải chớp thời cơ thúc đẩy bước nhảy vọt về chất."
+    },
+    {
+      "id": "fc-8",
+      "topic": "duong-loi",
+      "front": "“Dựa vào sức mình là chính” có nghĩa gì?",
+      "back": "Lấy nguồn nội lực của dân tộc, sức mạnh vật chất và tinh thần trong nhân dân làm chỗ dựa chủ yếu; đồng thời tranh thủ ủng hộ quốc tế khi có điều kiện. Độc lập, tự chủ về đường lối là yếu tố hàng đầu."
+    },
+    {
+      "id": "fc-9",
+      "topic": "duong-loi",
+      "front": "Mục tiêu cuộc kháng chiến chống Pháp?",
+      "back": "Đánh đổ thực dân Pháp xâm lược, giành nền độc lập, tự do, thống nhất hoàn toàn; vì nền tự do dân chủ và góp phần bảo vệ hòa bình thế giới."
+    },
+    {
+      "id": "fc-10",
+      "topic": "duong-loi",
+      "front": "Những văn kiện tập trung thể hiện đường lối kháng chiến?",
+      "back": "Chỉ thị Kháng chiến kiến quốc (25-11-1945); Tình hình và chủ trương (3-3-1946); Hòa để tiến (9-3-1946); Toàn dân kháng chiến (12-12-1946); Lời kêu gọi toàn quốc kháng chiến (19-12-1946); Kháng chiến nhất định thắng lợi của Trường Chinh (8-1947)."
+    },
+    {
+      "id": "fc-11",
+      "topic": "to-chuc",
+      "front": "Cuối 1947, lực lượng kháng chiến phát triển ra sao?",
+      "back": "Hơn 70.000 đảng viên; bộ đội chính quy hơn 12 vạn (57 trung đoàn, 20 tiểu đoàn độc lập); dân quân tự vệ hơn 1 triệu người; khoảng 3 vạn khẩu súng, hơn 20 công xưởng sửa chữa, sản xuất vũ khí."
+    },
+    {
+      "id": "fc-12",
+      "topic": "to-chuc",
+      "front": "“Lớp tháng Tám” là gì?",
+      "back": "Đợt phát triển đảng viên mới sau Hội nghị cán bộ Trung ương 6-4-1947: nhiều quần chúng ưu tú công, nông, trí gia nhập Đảng, mở rộng lực lượng cán bộ cho kháng chiến."
+    },
+    {
+      "id": "fc-13",
+      "topic": "to-chuc",
+      "front": "Ba thứ quân của ta (từ 1949–1950)?",
+      "back": "Bộ đội chủ lực, bộ đội địa phương, dân quân du kích. Đến đầu 1950: 23 vạn bộ đội (40.000 đảng viên), 3 triệu dân quân tự vệ và du kích; lực lượng cơ động hơn hẳn địch."
+    },
+    {
+      "id": "fc-14",
+      "topic": "to-chuc",
+      "front": "Văn hóa – giáo dục thời kháng chiến có gì nổi bật?",
+      "back": "Hội nghị Văn hóa toàn quốc (7-1948) đề ra nền văn hóa dân tộc, khoa học, đại chúng; phong trào bình dân học vụ; cải cách giáo dục quốc gia; thi đua ái quốc theo Lời kêu gọi 11-6-1948."
+    },
+    {
+      "id": "fc-15",
+      "topic": "to-chuc",
+      "front": "Chiến công điển hình của Công an nhân dân 1945–1950?",
+      "back": "Tổ điệp báo A13 đánh đắm Thông báo hạm Amiôđanhvin của Pháp ngoài khơi Sầm Sơn, Thanh Hóa (9-1950), đập tan âm mưu mua chuộc xây dựng “chiến khu quốc gia” ở Thanh – Nghệ – Tĩnh."
+    },
+    {
+      "id": "fc-16",
+      "topic": "bien-gioi",
+      "front": "Chiến dịch Biên giới Thu Đông 1950 diễn ra khi nào, ở đâu?",
+      "back": "Từ 16-9 đến 17-10-1950 (30 ngày đêm), dọc tuyến biên giới Việt – Trung từ thị xã Cao Bằng đến Đình Lập (giáp Móng Cái) — chiến dịch lớn đầu tiên do quân ta chủ động mở."
+    },
+    {
+      "id": "fc-17",
+      "topic": "bien-gioi",
+      "front": "Ý nghĩa Chiến dịch Biên giới Thu Đông 1950?",
+      "back": "“Đạt được mục tiêu diệt địch, kết thúc thời kỳ chiến đấu trong vòng vây”; mở rộng căn cứ địa Việt Bắc, tạo hành lang thông thương với Trung Quốc và các nước xã hội chủ nghĩa; đưa kháng chiến sang giai đoạn phát triển cao hơn."
+    },
+    {
+      "id": "fc-18",
+      "topic": "bien-gioi",
+      "front": "Bước ngoặt ngoại giao đầu năm 1950?",
+      "back": "Sau khi Chủ tịch Hồ Chí Minh thăm Trung Quốc, Liên Xô: Trung Quốc (18-1-1950), Liên Xô (30-1-1950), các nước dân chủ nhân dân Đông Âu và Triều Tiên (2-1950) công nhận và đặt quan hệ ngoại giao với Việt Nam Dân chủ Cộng hòa."
+    },
+    {
+      "id": "fc-19",
+      "topic": "bien-gioi",
+      "front": "Vì sao cuối 1949 – 1950 tình hình quốc tế có lợi cho ta?",
+      "back": "Cộng hòa Nhân dân Trung Hoa ra đời (1-10-1949); Pháp gặp nhiều khó khăn, thế chiến lược ở Đông Dương bị đảo lộn; Mỹ can thiệp sâu để thay thế Pháp, gây phong trào đấu tranh rộng lớn trong nước."
+    },
+    {
+      "id": "fc-20",
+      "topic": "bien-gioi",
+      "front": "Âm mưu “chiến thuật mạng nhện” của địch ở Nam Bộ?",
+      "back": "Hệ thống tháp canh dày đặc để kìm kẹp. Ta khắc phục bằng chiến tranh du kích, chiến dịch Cầu Kè – Trà Vinh (4-1949) và cách đánh đặc công (trận cầu Bà Kiên, 18-4-1950)."
+    }
+  ]
+}

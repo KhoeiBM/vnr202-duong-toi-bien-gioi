@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "v-1",
+      "claim": "Lời kêu gọi toàn quốc kháng chiến được Chủ tịch Hồ Chí Minh viết và công bố ngày 19-12-1946, với câu “Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ”.",
+      "evidence": "Hồ Chí Minh Toàn tập, Nxb Chính trị quốc gia, 2011, tập 4, tr. 534 (chú thích 95 trong tài liệu gốc).",
+      "referenceUrl": "https://dangcongsan.vn/tieu-diem/loi-keu-goi-toan-quoc-khang-chien-19-12-1946-ban-hung-ca-bao-ve-to-quoc-655850.html",
+      "referenceLabel": "Đảng Cộng sản Việt Nam — Lời kêu gọi Toàn quốc kháng chiến (19-12-1946)"
+    },
+    {
+      "id": "v-2",
+      "claim": "Hội nghị Ban Thường vụ Trung ương Đảng (mở rộng) ngày 18-12-1946 họp tại làng Vạn Phúc, Hà Đông, quyết định phát động toàn quốc kháng chiến.",
+      "evidence": "Biên niên tiểu sử Hồ Chí Minh, tập 4 (12/1946 – 12/1950): Người chủ tọa hội nghị và viết Lời kêu gọi tại gác hai nhà ông Nguyễn Văn Dương, làng Vạn Phúc.",
+      "referenceUrl": "https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/book/ho-chi-minh/tieu-su-cuoc-doi-va-su-nghiep/ho-chi-minh-bien-nien-tieu-su-tap-4-121946-121950-24",
+      "referenceLabel": "Tư liệu Văn kiện Đảng — Hồ Chí Minh: Biên niên tiểu sử, tập 4"
+    },
+    {
+      "id": "v-3",
+      "claim": "Hà Nội chiến đấu liên tục 60 ngày đêm (từ 20 giờ 19-12-1946 đến 17-2-1947) rồi chủ động rút lui ra ngoại thành.",
+      "evidence": "Tài liệu học tập nêu các trận tiêu biểu: Bắc Bộ phủ, Bưu điện Bờ Hồ, chợ Đồng Xuân, ga Hàng Cỏ, sân bay Bạch Mai, Ô Cầu Dền; kết quả: bẻ gãy kế hoạch “đánh nhanh, thắng nhanh”, hình thành Trung đoàn Thủ đô.",
+      "referenceUrl": "https://vi.wikipedia.org/wiki/Tr%E1%BA%ADn_%C4%90%C3%B4ng_%C4%90%C4%83ng",
+      "referenceLabel": "Tóm tắt bối cảnh Toàn quốc kháng chiến (Wikipedia tiếng Việt)"
+    },
+    {
+      "id": "v-4",
+      "claim": "Chiến dịch Việt Bắc Thu Đông 1947 kéo dài 75 ngày đêm, kết thúc thắng lợi ngày 21-12-1947, bẻ gãy cuộc tấn công của khoảng 15.000 quân Pháp.",
+      "evidence": "Tài liệu học tập: Chỉ thị ngày 15-10-1947 của Ban Thường vụ Trung ương “phải phá tan cuộc tấn công mùa đông của giặc Pháp”.",
+      "referenceUrl": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Vi%E1%BB%87t_B%C3%A2c_1947",
+      "referenceLabel": "Chiến dịch Việt Bắc 1947 (Wikipedia tiếng Việt)"
+    },
+    {
+      "id": "v-5",
+      "claim": "Cuối năm 1947 toàn Đảng có hơn 70.000 đảng viên; bộ đội chính quy hơn 12 vạn (57 trung đoàn, 20 tiểu đoàn độc lập); dân quân tự vệ hơn 1 triệu người.",
+      "evidence": "Sau Hội nghị cán bộ Trung ương 6-4-1947 và đợt phát triển đảng viên “Lớp tháng Tám”; trang bị khoảng 3 vạn khẩu súng, hơn 20 công xưởng sửa chữa, sản xuất vũ khí.",
+      "referenceUrl": "https://vi.wikipedia.org/wiki/Qu%C3%A2n_%C4%91%E1%BB%99i_Nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam",
+      "referenceLabel": "Quân đội nhân dân Việt Nam (Wikipedia tiếng Việt)"
+    },
+    {
+      "id": "v-6",
+      "claim": "Ngày 1-10-1949, Đảng Cộng sản Trung Quốc giành chính quyền; Nhà nước Cộng hòa Nhân dân Trung Hoa ra đời, làm đảo lộn thế chiến lược của Pháp ở Đông Dương.",
+      "evidence": "Tài liệu học tập: từ năm 1948 tình hình quốc tế chuyển biến có lợi; đặc biệt sau 1-10-1949.",
+      "referenceUrl": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_D%C3%A2n_t%E1%BB%99c_gi%E1%BA%A3i_ph%C3%B3ng_Vi%E1%BB%87t_Nam",
+      "referenceLabel": "Bối cảnh quốc tế 1949–1950 (Wikipedia tiếng Việt)"
+    },
+    {
+      "id": "v-7",
+      "claim": "Trung Quốc công nhận Việt Nam Dân chủ Cộng hòa ngày 18-1-1950; Liên Xô ngày 30-1-1950; các nước dân chủ nhân dân Đông Âu và Triều Tiên tháng 2-1950.",
+      "evidence": "Sau khi Chủ tịch Hồ Chí Minh đi thăm Trung Quốc và Liên Xô đầu năm 1950.",
+      "referenceUrl": "https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/book/ho-chi-minh/tieu-su-cuoc-doi-va-su-nghiep/ho-chi-minh-bien-nien-tieu-su-tap-4-121946-121950-24",
+      "referenceLabel": "Tư liệu Văn kiện Đảng — Hồ Chí Minh: Biên niên tiểu sử, tập 4"
+    },
+    {
+      "id": "v-8",
+      "claim": "Tháng 11-1949, Chủ tịch Hồ Chí Minh ký Sắc lệnh về nghĩa vụ quân sự; đến đầu 1950 ta có 23 vạn bộ đội (40.000 đảng viên) và 3 triệu dân quân tự vệ, du kích.",
+      "evidence": "Gắn với phong trào “luyện quân lập công”, “rèn cán, chỉnh quân”; lực lượng cơ động của ta đầu 1950 hơn hẳn địch (2 Đại đoàn 304, 308 so với 12 tiểu đoàn cơ động chiến lược của Pháp).",
+      "referenceUrl": "https://vi.wikipedia.org/wiki/Qu%C3%A2n_%C4%91%E1%BB%99i_Nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam",
+      "referenceLabel": "Quân đội nhân dân Việt Nam (Wikipedia tiếng Việt)"
+    },
+    {
+      "id": "v-9",
+      "claim": "Chiến dịch Biên giới Thu Đông 1950 diễn ra từ 16-9 đến 17-10-1950, dọc biên giới từ Cao Bằng đến Đình Lập, do Chủ tịch Hồ Chí Minh trực tiếp chỉ đạo.",
+      "evidence": "Còn gọi là Chiến dịch Lê Hồng Phong II; mở đầu bằng trận đánh cứ điểm Đông Khê (16-9-1950) để cô lập Cao Bằng, phá thế phòng thủ đường số 4.",
+      "referenceUrl": "https://nda.edu.vn/tin-tuc/cac-chien-le/chien-dich-bien-gioi-1950-954.html",
+      "referenceLabel": "Học viện Quốc phòng — Chiến dịch Biên giới 1950"
+    },
+    {
+      "id": "v-10",
+      "claim": "Thắng lợi Chiến dịch Biên giới “đạt được mục tiêu diệt địch, kết thúc thời kỳ chiến đấu trong vòng vây”, mở cục diện mới cho kháng chiến.",
+      "evidence": "Tổng kết toàn quốc đợt tiến công Thu Đông 1950: tiêu diệt gần 12.000 địch, hạ và bức rút 217 vị trí, giải phóng 40 vạn dân, 5 thị xã (trong đó Cao Bằng, Lạng Sơn).",
+      "referenceUrl": "http://baotanglichsu.vn/vi/Articles/3097/18574/chien-dich-bien-gioi-thu-djong-16-9-17-10-1950-su-thanh-cong-trong-su-dung-ke-hoach-tac-chien.html",
+      "referenceLabel": "Bảo tàng Lịch sử quốc gia — Chiến dịch Biên giới Thu đông 1950"
+    },
+    {
+      "id": "v-11",
+      "claim": "Tổ điệp báo A13 (Công an nhân dân) đánh đắm Thông báo hạm Amiôđanhvin của Pháp ngoài khơi Sầm Sơn, Thanh Hóa, tháng 9-1950.",
+      "evidence": "Bộ Nội vụ: Công an nhân dân Việt Nam – Lịch sử biên niên (1945–1954), Nxb Công an nhân dân, Hà Nội, 1994, tr. 235 (chú thích 96 trong tài liệu gốc).",
+      "referenceUrl": "https://vi.wikipedia.org/wiki/C%C3%B4ng_an_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam",
+      "referenceLabel": "Công an nhân dân Việt Nam (Wikipedia tiếng Việt)"
+    },
+    {
+      "id": "v-12",
+      "claim": "Ngày 19-3-1950, hơn 500.000 người dân Sài Gòn biểu tình chống Mỹ khi Mỹ đưa tàu chiến tới Cảng Sài Gòn; trước đó ngày 9-1-1950, 3.000 sinh viên biểu tình, Trần Văn Ơn hy sinh.",
+      "evidence": "Tài liệu học tập: Xứ ủy Nam Bộ chỉ đạo phong trào; luật sư Nguyễn Hữu Thọ tham gia lãnh đạo, chỉ đạo đấu tranh.",
+      "referenceUrl": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_V%C4%83n_%C6%90%C6%A1n",
+      "referenceLabel": "Trần Văn Ơn (Wikipedia tiếng Việt)"
+    }
+  ]
+}
