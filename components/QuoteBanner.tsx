@@ -14,6 +14,9 @@ export default function QuoteBanner() {
         <em className="quote-source">
           {main.work} · {main.source}
         </em>
+        <a href="#am-thanh" className="quote-listen">
+          ▶ Nghe chính giọng Bác đọc lời kêu gọi này
+        </a>
       </div>
     </section>
   );

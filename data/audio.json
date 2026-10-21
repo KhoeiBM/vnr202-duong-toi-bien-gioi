@@ -1,0 +1,24 @@
+{
+  "clips": [
+    {
+      "id": "loi-keu-goi-1946",
+      "title": "Chủ tịch Hồ Chí Minh đọc Lời kêu gọi toàn quốc kháng chiến",
+      "date": "19-12-1946",
+      "audioUrl": "https://hochiminh.vn/upload/3000001/20251024/80250b729fe87e9e21faf396991bd1b702_HCM_DocLoiKeuGoiToanQuocKhangChien_.mp3",
+      "sourceUrl": "https://hochiminh.vn/audio/chu-tich-ho-chi-minh-doc-loi-keu-goi-toan-quoc-khang-chien-ngay-19-12-1946-2",
+      "sourceName": "hochiminh.vn — Tư liệu Audio",
+      "note": "Bản ghi lịch sử giọng Chủ tịch Hồ Chí Minh; Lời kêu gọi được Đài Tiếng nói Việt Nam phát đi sáng 20-12-1946 từ Hang Trầm (Chương Mỹ, Hà Nội). Trình phát nhúng trực tiếp từ máy chủ hochiminh.vn — không tự host file.",
+      "context": false
+    },
+    {
+      "id": "tuyen-ngon-1945",
+      "title": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập",
+      "date": "2-9-1945",
+      "audioUrl": "https://hochiminh.vn/upload/3000001/20251024/cd80510c4c31f8f1b26e234bcfa7658c01_-_Tuyen_ngon_doc_lap_103854.mp3",
+      "sourceUrl": "https://hochiminh.vn/audio/ho-chi-minh-chu-tich-lam-thoi-nuoc-viet-nam-dan-chu-cong-hoa-doc-ban-tuyen-ngon-doc-lap-ngay-2-9-1945-tai-quang-truong-1",
+      "sourceName": "hochiminh.vn — Tư liệu Audio",
+      "note": "Bối cảnh mở đầu trước kháng chiến. Ghi chú tư liệu: băng giọng Bác đọc Tuyên ngôn Độc lập được Đài Phát thanh Hà Nội thu lại sau năm 1954, không phải băng ghi âm ngày 2-9-1945. Trình phát nhúng trực tiếp từ máy chủ hochiminh.vn.",
+      "context": true
+    }
+  ]
+}

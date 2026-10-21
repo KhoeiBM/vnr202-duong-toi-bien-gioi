@@ -11,6 +11,7 @@ import LeafletMap from '@/components/LeafletMap';
 import Quiz from '@/components/Quiz';
 import Flashcards from '@/components/Flashcards';
 import Roadmap from '@/components/Roadmap';
+import AudioArchive from '@/components/AudioArchive';
 import Quotes from '@/components/Quotes';
 import Verification from '@/components/Verification';
 
@@ -181,12 +182,30 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 07 — Trích dẫn */}
+      {/* 07 — Âm thanh lịch sử */}
+      <section className="section" id="am-thanh">
+        <div className="container">
+          <Reveal>
+            <SectionHeading
+              kicker="07 · Âm thanh lịch sử"
+              title="Nghe chính giọng Chủ tịch Hồ Chí Minh"
+              desc="Bản ghi gốc từ kho Tư liệu Audio của hochiminh.vn: Lời kêu gọi toàn quốc kháng chiến 19-12-1946 và (bối cảnh mở đầu) Tuyên ngôn Độc lập 2-9-1945. Trình phát nhúng trực tiếp từ máy chủ nguồn, kèm nút mở tại nguồn dự phòng."
+            />
+          </Reveal>
+          <Reveal>
+            <AudioArchive />
+          </Reveal>
+        </div>
+      </section>
+
+      <hr className="divider" />
+
+      {/* 08 — Trích dẫn */}
       <section className="section" id="trich-dan">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="07 · Thư viện trích dẫn"
+              kicker="08 · Thư viện trích dẫn"
               title="Những lời nói đi cùng năm tháng"
               desc="Mỗi trích dẫn gắn nguồn và liên kết đối chiếu để bạn tự kiểm chứng."
             />
@@ -196,20 +215,20 @@ export default function Home() {
           </Reveal>
           <p className="map-note" style={{ marginTop: 18 }}>
             💡 Bản ghi âm lịch sử giọng Chủ tịch Hồ Chí Minh đọc Lời kêu gọi toàn quốc kháng chiến
-            hiện được lưu giữ tại Đài Tiếng nói Việt Nam và Bảo tàng Lịch sử quốc gia — website này
-            chỉ trích dẫn văn bản, không nhúng file âm thanh.
+            hiện được lưu giữ tại Đài Tiếng nói Việt Nam và Bảo tàng Hồ Chí Minh — xem mục{' '}
+            <a href="#am-thanh">Âm thanh lịch sử</a> để nghe trực tiếp từ nguồn chính thống.
           </p>
         </div>
       </section>
 
       <hr className="divider" />
 
-      {/* 08 — Kiểm chứng */}
+      {/* 09 — Kiểm chứng */}
       <section className="section" id="kiem-chung">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="08 · Bảng kiểm chứng"
+              kicker="09 · Bảng kiểm chứng"
               title="Đối chiếu tư liệu"
               desc="Bảng tra cứu 12 thông tin then chốt kèm bằng chứng trong tài liệu và liên kết nguồn mở để đối chiếu."
             />
