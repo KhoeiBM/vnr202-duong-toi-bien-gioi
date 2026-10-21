@@ -94,6 +94,21 @@ for (const d of roadmap.days) {
   }
 }
 
+// ---- audio ----
+const audio = read('data/audio.json');
+ok(audio.clips.length >= 2, `audio.json: cần >= 2 clip`);
+for (const c of audio.clips) {
+  ok(
+    typeof c.audioUrl === 'string' && /^https:\/\/hochiminh\.vn\/.+\.(mp3|m4a|wav)$/i.test(c.audioUrl),
+    `audio ${c.id}: audioUrl phải là file media trên hochiminh.vn`
+  );
+  ok(
+    typeof c.sourceUrl === 'string' && /^https:\/\/hochiminh\.vn\/audio\//.test(c.sourceUrl),
+    `audio ${c.id}: sourceUrl phải là trang tư liệu trên hochiminh.vn`
+  );
+  ok(typeof c.note === 'string' && c.note.length > 10, `audio ${c.id}: thiếu ghi chú nguồn`);
+}
+
 // ---- report ----
 if (errors.length) {
   console.error(`✗ Kiểm chứng THẤT BẠI (${errors.length} lỗi):`);
@@ -103,5 +118,6 @@ if (errors.length) {
 console.log(
   `✓ Kiểm chứng đạt: ${quiz.questions.length} câu quiz, ${quotes.quotes.length} trích dẫn, ` +
     `${verification.items.length} mục kiểm chứng, ${timeline.events.length} mốc thời gian, ` +
-    `${map.places.length} điểm bản đồ, ${flashcards.cards.length} flashcard, 7 ngày lộ trình.`
+    `${map.places.length} điểm bản đồ, ${flashcards.cards.length} flashcard, 7 ngày lộ trình, ` +
+    `${audio.clips.length} clip âm thanh nguồn chính thống.`
 );

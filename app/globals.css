@@ -1384,6 +1384,38 @@ button {
   color: var(--muted);
 }
 
+.audio-failed {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(224, 69, 75, 0.5);
+  background: rgba(224, 69, 75, 0.1);
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.quote-listen {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 11px 22px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: rgba(212, 162, 78, 0.12);
+  color: var(--gold-bright);
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.quote-listen:hover {
+  background: rgba(212, 162, 78, 0.24);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
 /* ---------- Verification table ---------- */
 .verify-table-wrap {
   overflow-x: auto;

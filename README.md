@@ -15,6 +15,7 @@ Website học tập tương tác về **cuộc kháng chiến toàn quốc 1946�
 | **Trắc nghiệm** | ~80 câu / 4 chủ đề / 3 độ khó; chế độ **luyện tập** (có giải thích) và **thi thử tính giờ** (lưu kỷ lục) |
 | **Flashcard** | 20 thẻ tri thức, lật mặt, đánh dấu “đã thuộc” |
 | **Lộ trình 7 ngày** | Kế hoạch ôn tập có checklist, lưu tiến độ |
+| **Âm thanh lịch sử** | Bản ghi gốc giọng Bác đọc Lời kêu gọi 19-12-1946 & Tuyên ngôn Độc lập 2-9-1945 — nhúng trực tiếp từ hochiminh.vn, kèm nút “Nghe tại nguồn” |
 | **Trích dẫn & kiểm chứng** | 8 trích dẫn có nguồn + bảng kiểm chứng 12 thông tin then chốt với liên kết đối chiếu |
 
 ## Công nghệ
@@ -56,7 +57,8 @@ ngay trên trang (mục **09**) kèm liên kết tới:
 
 ## Ghi chú
 
-- Website **không nhúng file âm thanh**: bản ghi âm lịch sử giọng Chủ tịch Hồ Chí Minh đọc Lời
-  kêu gọi toàn quốc kháng chiến được lưu giữ tại Đài Tiếng nói Việt Nam và Bảo tàng Lịch sử quốc
-  gia; trang chỉ trích dẫn văn bản kèm liên kết nguồn.
+- **Âm thanh**: website không tự host file — trình phát gọi trực tiếp file mp3 từ máy chủ
+  hochiminh.vn (kho Tư liệu Audio, Văn phòng Trung ương Đảng) và luôn kèm nút “Nghe tại nguồn”.
+  Nếu nguồn chặn nhúng/đổi đường dẫn, nút mở tại nguồn vẫn hoạt động. Bản ghi Tuyên ngôn Độc lập
+  là băng giọng Bác được Đài Phát thanh Hà Nội thu lại sau năm 1954.
 - Tọa độ trên bản đồ mang tính xấp xỉ, phục vụ minh họa học tập.
