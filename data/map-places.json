@@ -1,0 +1,94 @@
+{
+  "places": [
+    {
+      "id": "hn",
+      "name": "Hà Nội",
+      "coords": [21.0285, 105.8542],
+      "svg": { "x": 232, "y": 468 },
+      "order": 1,
+      "date": "19-12-1946",
+      "event": "20 giờ 3 phút, pháo đài Láng bắn loạt đại bác đầu tiên vào thành Hà Nội — cuộc kháng chiến toàn quốc bùng nổ.",
+      "tag": "khoi-dau"
+    },
+    {
+      "id": "vanphuc",
+      "name": "Làng Vạn Phúc, Hà Đông",
+      "coords": [20.9716, 105.7656],
+      "svg": { "x": 196, "y": 492 },
+      "order": 2,
+      "date": "18-12-1946",
+      "event": "Hội nghị Ban Thường vụ Trung ương Đảng (mở rộng) quyết định phát động toàn quốc kháng chiến.",
+      "tag": "khoi-dau"
+    },
+    {
+      "id": "atk",
+      "name": "ATK Việt Bắc (Tuyên Quang)",
+      "coords": [21.8233, 105.2142],
+      "svg": { "x": 330, "y": 336 },
+      "order": 3,
+      "date": "1947",
+      "event": "Căn cứ địa kháng chiến — nơi đặt cơ quan đầu não. Thu Đông 1947, Pháp mở cuộc tấn công mùa đông hòng bắt gọn Chính phủ.",
+      "tag": "chien-dich"
+    },
+    {
+      "id": "backan",
+      "name": "Bắc Kạn – Chợ Đồn",
+      "coords": [22.1470, 105.8340],
+      "svg": { "x": 432, "y": 292 },
+      "order": 4,
+      "date": "10-1947",
+      "event": "Pháp nhảy dù thọc sâu xuống thị xã Bắc Kạn, Chợ Mới, Chợ Đồn — bị quân dân ta bẻ gãy sau 75 ngày đêm.",
+      "tag": "chien-dich"
+    },
+    {
+      "id": "caobang",
+      "name": "Thị xã Cao Bằng",
+      "coords": [22.6657, 106.2570],
+      "svg": { "x": 552, "y": 172 },
+      "order": 5,
+      "date": "9-1950",
+      "event": "Điểm mở đầu Chiến dịch Biên giới Thu Đông 1950 trên tuyến biên giới Việt – Trung.",
+      "tag": "bien-gioi"
+    },
+    {
+      "id": "dongkhue",
+      "name": "Cứ điểm Đông Khê",
+      "coords": [22.8830, 106.4500],
+      "svg": { "x": 614, "y": 212 },
+      "order": 6,
+      "date": "16-9-1950",
+      "event": "Mở màn chiến dịch: trung đoàn 174 và 209 đánh chiếm Đông Khê, cô lập Cao Bằng, phá thế phòng thủ đường số 4.",
+      "tag": "bien-gioi"
+    },
+    {
+      "id": "thatkhe",
+      "name": "Thất Khê (Tràng Định)",
+      "coords": [22.2680, 106.4700],
+      "svg": { "x": 642, "y": 298 },
+      "order": 7,
+      "date": "10-1950",
+      "event": "Hành lang đường số 4 — nơi đoàn quân tiếp tế của Pháp bị tiêu diệt trên đường rút chạy.",
+      "tag": "bien-gioi"
+    },
+    {
+      "id": "langson",
+      "name": "Thị xã Lạng Sơn",
+      "coords": [21.8537, 106.7610],
+      "svg": { "x": 686, "y": 358 },
+      "order": 8,
+      "date": "10-1950",
+      "event": "Một trong những trọng điểm của chiến dịch; cùng Cao Bằng tạo thành trận then chốt của mặt trận biên giới.",
+      "tag": "bien-gioi"
+    },
+    {
+      "id": "dinhlap",
+      "name": "Đình Lập (giáp Móng Cái)",
+      "coords": [21.5410, 107.1170],
+      "svg": { "x": 738, "y": 412 },
+      "order": 9,
+      "date": "17-10-1950",
+      "event": "Điểm cuối của chiến dịch — toàn khu vực biên giới từ Cao Bằng đến Đình Lập được giải phóng, khai thông biên giới Việt – Trung.",
+      "tag": "bien-gioi"
+    }
+  ]
+}

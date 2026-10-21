@@ -1,0 +1,27 @@
+{
+  "name": "duong-toi-bien-gioi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Đường tới biên giới — Trải nghiệm tương tác về đường lối kháng chiến toàn quốc 1946–1950 và Chiến dịch Biên giới Thu Đông 1950",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "verify:content": "node scripts/verify-content.mjs",
+    "export": "next build"
+  },
+  "dependencies": {
+    "@fontsource/be-vietnam-pro": "^5.1.0",
+    "@fontsource/lora": "^5.1.0",
+    "leaflet": "^1.9.4",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

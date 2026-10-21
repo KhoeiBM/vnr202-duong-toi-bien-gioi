@@ -1,0 +1,950 @@
+{
+  "topics": [
+    { "id": "khoi-dau", "name": "Bùng nổ kháng chiến 1946", "description": "Từ hòa hoãn đến giờ nổ súng: Hà Nội 19-12-1946 và 60 ngày đêm quyết tử." },
+    { "id": "duong-loi", "name": "Đường lối kháng chiến của Đảng", "description": "Toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính." },
+    { "id": "to-chuc", "name": "Tổ chức & xây dựng lực lượng 1947–1950", "description": "Đảng, quân đội, công an, kinh tế, văn hóa, vùng địch hậu." },
+    { "id": "bien-gioi", "name": "Chiến dịch Biên giới & quốc tế", "description": "Việt Bắc 1947, ngoại giao 1950 và Chiến dịch Biên giới Thu Đông 1950." }
+  ],
+  "questions": [
+    {
+      "id": "q-001",
+      "topic": "khoi-dau",
+      "difficulty": "de",
+      "question": "Cuộc kháng chiến toàn quốc bùng nổ vào ngày nào?",
+      "options": ["12-12-1946", "18-12-1946", "19-12-1946", "20-12-1946"],
+      "answer": 2,
+      "explanation": "Bắt đầu từ 20 giờ ngày 19-12-1946, dưới sự chỉ đạo của các cấp ủy đảng, quân và dân Hà Nội và các đô thị từ Bắc vĩ tuyến 16 trở ra đồng loạt nổ súng."
+    },
+    {
+      "id": "q-002",
+      "topic": "khoi-dau",
+      "difficulty": "de",
+      "question": "Ai đã ra Lời kêu gọi toàn quốc kháng chiến ngày 19-12-1946?",
+      "options": ["Tổng Bí thư Trường Chinh", "Chủ tịch Hồ Chí Minh", "Đại tướng Võ Nguyên Giáp", "Ủy ban Kháng chiến hành chính"],
+      "answer": 1,
+      "explanation": "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến, khẳng định quyết tâm sắt đá của nhân dân ta quyết kháng chiến đến cùng."
+    },
+    {
+      "id": "q-003",
+      "topic": "khoi-dau",
+      "difficulty": "de",
+      "question": "Sự kiện nào báo hiệu cuộc kháng chiến toàn quốc bắt đầu tại Hà Nội?",
+      "options": [
+        "Pháo đài Láng bắn loạt đại bác đầu tiên vào thành Hà Nội lúc 20 giờ 3 phút",
+        "Đèn điện trong thành phố vụt tắt",
+        "Tiếng còi báo động ở Bờ Hồ",
+        "Đại bác của Pháp bắn vào phố Yên Ninh"
+      ],
+      "answer": 0,
+      "explanation": "Vào lúc 20 giờ 3 phút ngày 19-12-1946, pháo đài Láng bắn loạt đại bác đầu tiên vào thành Hà Nội, báo hiệu cuộc kháng chiến toàn quốc bắt đầu."
+    },
+    {
+      "id": "q-004",
+      "topic": "khoi-dau",
+      "difficulty": "de",
+      "question": "Khẩu hiệu tiêu biểu thể hiện tinh thần chiến đấu của quân dân Hà Nội năm 1946 là gì?",
+      "options": ["Quyết tử cho Tổ quốc quyết sinh", "Thà hy sinh tất cả chứ không chịu mất nước", "Không có gì quý hơn độc lập tự do", "Toàn quốc kháng chiến"],
+      "answer": 0,
+      "explanation": "Các trận đánh ác liệt ở nhà Bắc Bộ phủ, Bưu điện Bờ Hồ, chợ Đồng Xuân... tiêu biểu cho tinh thần “Quyết tử cho Tổ quốc quyết sinh” của quân dân Thủ đô."
+    },
+    {
+      "id": "q-005",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Hội nghị Ban Thường vụ Trung ương Đảng (mở rộng) quyết định phát động toàn quốc kháng chiến họp ở đâu?",
+      "options": ["Làng Vạn Phúc, Hà Đông", "Phủ Chủ tịch, Hà Nội", "An toàn khu Việt Bắc", "Nhà hát Lớn Hà Nội"],
+      "answer": 0,
+      "explanation": "Ngày 18-12-1946, Hội nghị họp tại làng Vạn Phúc, Hà Đông (nay thuộc quận Hà Đông, Hà Nội), quyết định phát động toàn dân, toàn quốc kháng chiến."
+    },
+    {
+      "id": "q-006",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Ngày 18-12-1946, phía Pháp ở Hà Nội đã đưa ra bao nhiêu tối hậu thư đòi Việt Nam giải giáp?",
+      "options": ["Một", "Hai", "Ba", "Bốn"],
+      "answer": 2,
+      "explanation": "Đại diện Pháp đơn phương tuyên bố cắt đứt mọi liên hệ với Chính phủ Việt Nam, đưa liên tiếp ba tối hậu thư đòi giải giáp, giải tán lực lượng tự vệ chiến đấu."
+    },
+    {
+      "id": "q-007",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Vụ thảm sát đồng bào Hà Nội ở phố Yên Ninh và Hàng Bún do hành động nào của Pháp?",
+      "options": ["Ném bom từ máy bay", "Bắn đại bác", "Đánh chiếm trụ sở Bộ Tài chính", "Tấn công chợ Đồng Xuân"],
+      "answer": 1,
+      "explanation": "Trong các ngày 16 và 17-12-1946, quân Pháp tấn công trụ sở Bộ Tài chính, Bộ Giao thông công chính và bắn đại bác gây ra vụ thảm sát đồng bào ở phố Yên Ninh, Hàng Bún."
+    },
+    {
+      "id": "q-008",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Cuộc chiến đấu bảo vệ Hà Nội kéo dài bao lâu?",
+      "options": ["30 ngày đêm", "45 ngày đêm", "60 ngày đêm", "75 ngày đêm"],
+      "answer": 2,
+      "explanation": "Cuộc chiến đấu ở mặt trận Hà Nội diễn ra liên tục trong suốt 60 ngày đêm khói lửa — đến ngày 17-2-1947 các lực lượng chủ động rút ra ngoài thành phố."
+    },
+    {
+      "id": "q-009",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Những lực lượng nào đồng loạt tấn công các vị trí đóng quân của Pháp trong đêm 19-12-1946?",
+      "options": [
+        "Vệ quốc đoàn, Tự vệ chiến đấu, Công an xung phong",
+        "Du kích Bắc Bộ, Thanh niên xung phong, Dân quân du kích",
+        "Quân giải phóng miền Nam, Thanh niên cứu quốc, Tự vệ chiến đấu",
+        "Bộ đội chủ lực, Công an nhân dân, Dân quân tự vệ"
+      ],
+      "answer": 0,
+      "explanation": "Đèn điện tắt, các lực lượng vũ trang Vệ quốc đoàn, Tự vệ chiến đấu, Công an xung phong nhất loạt tấn công các vị trí đóng quân của Pháp trong thành phố."
+    },
+    {
+      "id": "q-010",
+      "topic": "khoi-dau",
+      "difficulty": "kho",
+      "question": "Nghị quyết của Ủy ban Liên bộ Đông Dương (Comindo) ngày 23-11-1946 thể hiện điều gì?",
+      "options": [
+        "Pháp sẵn sàng đàm phán hòa bình với Việt Nam",
+        "Pháp chỉ muốn dùng biện pháp quân sự để giải quyết mối quan hệ Việt – Pháp",
+        "Pháp rút quân khỏi Đông Dương",
+        "Pháp công nhận nền độc lập của Việt Nam"
+      ],
+      "answer": 1,
+      "explanation": "Nghị quyết Comindo (23-11-1946) cho thấy phía Pháp chỉ muốn “dùng biện pháp quân sự để giải quyết mối quan hệ Việt – Pháp”."
+    },
+    {
+      "id": "q-011",
+      "topic": "khoi-dau",
+      "difficulty": "kho",
+      "question": "Cuối tháng 11-1946, Pháp đã hậu thuẫn cho lực lượng phản động thành lập cái gọi là gì?",
+      "options": [
+        "“Hội nghị Liên bang Đông Dương”",
+        "“Chính phủ Cộng hòa Nam Kỳ”",
+        "“Quốc gia Việt Nam”",
+        "“Nam Kỳ tự trị”"
+      ],
+      "answer": 1,
+      "explanation": "Pháp hậu thuẫn cho lực lượng phản động xúc tiến thành lập cái gọi là “Chính phủ Cộng hòa Nam Kỳ” và triệu tập Hội nghị Liên bang Đông Dương."
+    },
+    {
+      "id": "q-012",
+      "topic": "khoi-dau",
+      "difficulty": "kho",
+      "question": "Những địa danh nào bị Pháp đánh chiếm hoặc chiếm đóng trái phép trong cuối tháng 11-1946?",
+      "options": [
+        "Hải Phòng, Lạng Sơn, Đà Nẵng, Hải Dương",
+        "Hà Nội, Hải Phòng, Huế, Đà Lạt",
+        "Sài Gòn, Cần Thơ, Mỹ Tho, Biên Hòa",
+        "Lạng Sơn, Cao Bằng, Lào Cai, Hà Giang"
+      ],
+      "answer": 0,
+      "explanation": "Cuối tháng 11-1946, Pháp đánh chiếm Hải Phòng, Lạng Sơn, chiếm đóng trái phép Đà Nẵng, Hải Dương, tấn công các vùng tự do ở Nam Trung Bộ và Nam Bộ."
+    },
+    {
+      "id": "q-013",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Trận đánh tiêu biểu nào dưới đây KHÔNG thuộc 60 ngày đêm của Hà Nội?",
+      "options": ["Chợ Đồng Xuân", "Bưu điện Bờ Hồ", "Ga Hàng Cỏ", "Cầu Bà Kiên"],
+      "answer": 3,
+      "explanation": "Cầu Bà Kiên (18-4-1950) là trận đặc công ở Khu VII, Nam Bộ — không thuộc trận Hà Nội 1946–1947."
+    },
+    {
+      "id": "q-014",
+      "topic": "khoi-dau",
+      "difficulty": "de",
+      "question": "Sau 60 ngày đêm, Trung đoàn Thủ đô và các lực lượng quân sự đã đi đâu?",
+      "options": [
+        "Rút vào Nam Bộ kháng chiến",
+        "Chủ động rút lui ra ngoài thành phố, lên chiến khu an toàn",
+        "Đầu hàng quân Pháp trong thành phố",
+        "Rút sang Lào, Campuchia"
+      ],
+      "answer": 1,
+      "explanation": "Đến ngày 17-2-1947, Trung đoàn Thủ đô và các lực lượng chủ động rút ra ngoài thành phố, lên chiến khu an toàn để củng cố, bảo toàn và phát triển lực lượng kháng chiến lâu dài."
+    },
+    {
+      "id": "q-015",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Chỉ thị Toàn dân kháng chiến của Trung ương Đảng được ra vào ngày nào?",
+      "options": ["3-3-1946", "9-3-1946", "12-12-1946", "18-12-1946"],
+      "answer": 2,
+      "explanation": "Ngày 12-12-1946, Trung ương ra Chỉ thị Toàn dân kháng chiến — bước chuẩn bị cho việc phát động kháng chiến trên quy mô cả nước."
+    },
+    {
+      "id": "q-016",
+      "topic": "khoi-dau",
+      "difficulty": "kho",
+      "question": "Trong những tháng cuối năm 1946, trước khi kháng chiến nổ ra, chủ trương chủ yếu của Đảng và Chính phủ là gì?",
+      "options": [
+        "Phản công ngay trên quy mô toàn quốc",
+        "Kiên trì hòa hoãn, nhân nhượng, kìm chế để cứu vãn quan hệ Việt – Pháp, tránh chiến tranh quá sớm và không cân sức",
+        "Ký hiệp ước nhượng bộ toàn bộ miền Nam",
+        "Rút quân khỏi các thành phố lớn"
+      ],
+      "answer": 1,
+      "explanation": "Đảng, Chính phủ, quân đội và nhân dân tiếp tục kìm chế, kiên trì hòa hoãn, nhân nhượng nhằm giữ gìn nền độc lập và ngăn chặn chiến tranh nổ ra quá sớm, không cân sức với Pháp."
+    },
+    {
+      "id": "q-017",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Đêm 19-12-1946, phong trào nổ súng lan ra các đô thị từ đâu trở ra?",
+      "options": ["Vĩ tuyến 17", "Bắc vĩ tuyến 16", "Sông Gianh", "Phía nam Trung Bộ"],
+      "answer": 1,
+      "explanation": "Quân và dân Hà Nội và ở các đô thị từ Bắc vĩ tuyến 16 trở ra đã đồng loạt nổ súng, cuộc kháng chiến toàn quốc bùng nổ."
+    },
+    {
+      "id": "q-018",
+      "topic": "khoi-dau",
+      "difficulty": "kho",
+      "question": "Trước ngày 19-12-1946, nhiều lần Chủ tịch Hồ Chí Minh gửi điện văn, thư từ cho phía Pháp — kết quả ra sao?",
+      "options": [
+        "Được Thủ tướng Pháp hồi đáp tích cực",
+        "Đều không được hồi đáp; con đường ngoại giao không đưa đến kết quả tích cực",
+        "Pháp đồng ý ngừng bắn 30 ngày",
+        "Pháp công nhận chính quyền Việt Nam"
+      ],
+      "answer": 1,
+      "explanation": "Nhiều lần Chủ tịch Hồ Chí Minh gửi điện văn, thư từ cho Chính phủ, Thủ tướng Pháp nhưng đều không được hồi đáp; ngoại giao với đại diện Pháp tại Hà Nội cũng không có kết quả tích cực."
+    },
+    {
+      "id": "q-019",
+      "topic": "khoi-dau",
+      "difficulty": "de",
+      "question": "Mặt trận nào quyết liệt nhất trong những ngày đầu toàn quốc kháng chiến?",
+      "options": ["Mặt trận Hà Nội", "Mặt trận Huế", "Mặt trận Nam Bộ", "Mặt trận Hải Phòng"],
+      "answer": 0,
+      "explanation": "Cuộc chiến đấu ở mặt trận Hà Nội là quyết liệt nhất, diễn ra liên tục trong suốt 60 ngày đêm khói lửa."
+    },
+    {
+      "id": "q-020",
+      "topic": "khoi-dau",
+      "difficulty": "trung-binh",
+      "question": "Kết quả bước đầu quan trọng nhất của cuộc chiến đấu ở Hà Nội là gì?",
+      "options": [
+        "Giải phóng hoàn toàn Hà Nội",
+        "Giam chân địch trong thành phố, làm thất bại kế hoạch “đánh nhanh, thắng nhanh” của Pháp, bảo toàn lực lượng",
+        "Buộc Pháp rút khỏi miền Bắc",
+        "Thành lập Chính phủ kháng chiến tại Hà Nội"
+      ],
+      "answer": 1,
+      "explanation": "Quân ta giam chân địch trong thành phố, bước đầu làm thất bại kế hoạch đánh nhanh thắng nhanh của thực dân Pháp, bảo toàn và phát triển lực lượng."
+    },
+    {
+      "id": "q-021",
+      "topic": "duong-loi",
+      "difficulty": "de",
+      "question": "Nội dung cơ bản của đường lối kháng chiến chống Pháp của Đảng là gì?",
+      "options": [
+        "Kháng chiến toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính",
+        "Kháng chiến nhanh, gọn, thắng lợi trong một chiến dịch",
+        "Kháng chiến chủ yếu bằng quân sự ở đô thị",
+        "Kháng chiến dựa vào viện trợ quốc tế là chính"
+      ],
+      "answer": 0,
+      "explanation": "Đường lối hình thành qua thực tiễn 1945–1947: dựa trên sức mạnh toàn dân, tiến hành kháng chiến toàn dân, toàn diện, lâu dài và dựa vào sức mình là chính."
+    },
+    {
+      "id": "q-022",
+      "topic": "duong-loi",
+      "difficulty": "de",
+      "question": "Mục tiêu của cuộc kháng chiến chống thực dân Pháp là gì?",
+      "options": [
+        "Đánh đổ thực dân Pháp xâm lược, giành độc lập, tự do, thống nhất hoàn toàn",
+        "Chỉ giải phóng miền Bắc",
+        "Đạt được hiệp định chia đôi đất nước",
+        "Bảo vệ chính quyền Nam Kỳ tự trị"
+      ],
+      "answer": 0,
+      "explanation": "Mục tiêu: đánh đổ thực dân Pháp xâm lược, giành nền độc lập, tự do, thống nhất hoàn toàn; vì nền tự do dân chủ và góp phần bảo vệ hòa bình thế giới."
+    },
+    {
+      "id": "q-023",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Tác phẩm “Kháng chiến nhất định thắng lợi” của đồng chí Trường Chinh được viết vào thời gian nào?",
+      "options": ["Tháng 8-1945", "Tháng 8-1946", "Tháng 8-1947", "Tháng 8-1948"],
+      "answer": 2,
+      "explanation": "“Kháng chiến nhất định thắng lợi” (8-1947) là một trong những văn bản tập trung thể hiện đường lối kháng chiến của Đảng."
+    },
+    {
+      "id": "q-024",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Chỉ thị “Hòa để tiến” (9-3-1946) thể hiện sách lược gì?",
+      "options": [
+        "Dùng hòa hoãn, nhân nhượng để tranh thủ thời gian xây dựng lực lượng",
+        "Từ bỏ đấu tranh vũ trang vĩnh viễn",
+        "Ký hòa ước với Pháp bằng mọi giá",
+        "Chuyển kháng chiến sang du kích toàn quốc ngay"
+      ],
+      "answer": 0,
+      "explanation": "“Hòa để tiến” là sách lược mềm dẻo: tận dụng khả năng hòa hoãn để tranh thủ xây dựng lực lượng, nhưng không ảo tưởng về thiện chí của thực dân Pháp."
+    },
+    {
+      "id": "q-025",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Trong kháng chiến toàn diện, mặt trận nào giữ vai trò mũi nhọn, mang tính quyết định?",
+      "options": ["Mặt trận ngoại giao", "Mặt trận quân sự, đấu tranh vũ trang", "Mặt trận văn hóa", "Mặt trận kinh tế"],
+      "answer": 1,
+      "explanation": "Kháng chiến toàn diện đánh địch trên mọi lĩnh vực: quân sự, chính trị, kinh tế, văn hóa, tư tưởng, ngoại giao — trong đó mặt trận quân sự, đấu tranh vũ trang giữ vai trò mũi nhọn, mang tính quyết định."
+    },
+    {
+      "id": "q-026",
+      "topic": "duong-loi",
+      "difficulty": "kho",
+      "question": "Kháng chiến lâu dài được Đảng hiểu đúng nhất là gì?",
+      "options": [
+        "Kéo dài chiến tranh vô thời hạn cho đến khi địch mệt mỏi",
+        "Vừa đánh tiêu hao địch vừa xây dựng lực lượng ta, lấy thời gian chuyển hóa yếu thành mạnh, đồng thời chớp thời cơ thúc đẩy bước nhảy vọt về chất",
+        "Chỉ phòng ngự, không tiến công",
+        "Chờ đợi viện trợ quốc tế rồi tổng phản công"
+      ],
+      "answer": 1,
+      "explanation": "Trường kỳ kháng chiến là quá trình vừa đánh tiêu hao địch vừa phát triển lực lượng ta; lâu dài nhưng không vô thời hạn — phải tranh thủ, chớp thời cơ thúc đẩy thắng từng bước."
+    },
+    {
+      "id": "q-027",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "“Dựa vào sức mình là chính” có nghĩa là gì?",
+      "options": [
+        "Từ chối mọi sự giúp đỡ quốc tế",
+        "Lấy nguồn nội lực của dân tộc làm chỗ dựa chủ yếu, đồng thời tranh thủ ủng hộ quốc tế khi có điều kiện",
+        "Chỉ dựa vào sức mạnh quân sự",
+        "Dựa vào sức mạnh của các nước lớn"
+      ],
+      "answer": 1,
+      "explanation": "Phải lấy nội lực dân tộc, sức mạnh vật chất và tinh thần trong nhân dân làm chỗ dựa chủ yếu; trên cơ sở đó tìm kiếm, phát huy sự ủng hộ quốc tế khi có điều kiện."
+    },
+    {
+      "id": "q-028",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Khẩu hiệu nào thể hiện nội dung của kháng chiến toàn dân?",
+      "options": [
+        "“Mỗi người dân là một chiến sĩ, mỗi làng xã là một pháo đài, mỗi đường phố là một mặt trận”",
+        "“Tất cả cho tiền tuyến”",
+        "“Không có gì quý hơn độc lập tự do”",
+        "“Nhiệm vụ nào cũng hoàn thành, khó khăn nào cũng vượt qua”"
+      ],
+      "answer": 0,
+      "explanation": "Kháng chiến toàn dân: động viên toàn dân, xây dựng đồng thuận, đánh địch ở mọi nơi, mọi lúc — mỗi người dân là một chiến sĩ, mỗi làng xã là một pháo đài, mỗi đường phố là một mặt trận."
+    },
+    {
+      "id": "q-029",
+      "topic": "duong-loi",
+      "difficulty": "de",
+      "question": "Lực lượng nào làm nòng cốt cho toàn dân đánh giặc?",
+      "options": ["Dân quân du kích", "Quân đội nhân dân", "Công an nhân dân", "Thanh niên xung phong"],
+      "answer": 1,
+      "explanation": "Trong kháng chiến toàn dân, Quân đội nhân dân làm nòng cốt cho toàn dân đánh giặc."
+    },
+    {
+      "id": "q-030",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Đường lối kháng chiến của Đảng được hình thành, bổ sung, phát triển qua thực tiễn những năm nào?",
+      "options": ["1930–1945", "1945–1947", "1948–1954", "1946–1950"],
+      "answer": 1,
+      "explanation": "Đường lối được hình thành, bổ sung, phát triển qua thực tiễn cách mạng Việt Nam trong những năm 1945 đến 1947."
+    },
+    {
+      "id": "q-031",
+      "topic": "duong-loi",
+      "difficulty": "kho",
+      "question": "Trong các văn bản sau, văn bản nào KHÔNG thuộc nhóm văn kiện tập trung thể hiện đường lối kháng chiến 1945–1947?",
+      "options": [
+        "Chỉ thị Kháng chiến kiến quốc (25-11-1945)",
+        "Chỉ thị Hòa để tiến (9-3-1946)",
+        "Sắc lệnh về nghĩa vụ quân sự (11-1949)",
+        "Chỉ thị Toàn dân kháng chiến (12-12-1946)"
+      ],
+      "answer": 2,
+      "explanation": "Sắc lệnh về nghĩa vụ quân sự (11-1949) thuộc công tác tổ chức thực hiện; các văn bản 1945–1947 và Lời kêu gọi 19-12-1946, tác phẩm “Kháng chiến nhất định thắng lợi” (8-1947) là văn kiện tập trung của đường lối."
+    },
+    {
+      "id": "q-032",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Kháng chiến toàn diện được tiến hành trên những lĩnh vực nào?",
+      "options": [
+        "Chỉ quân sự và chính trị",
+        "Quân sự, chính trị, kinh tế, văn hóa, tư tưởng, ngoại giao",
+        "Quân sự, kinh tế, thương mại",
+        "Chính trị, văn hóa, giáo dục"
+      ],
+      "answer": 1,
+      "explanation": "Kháng chiến toàn diện là đánh địch trên mọi lĩnh vực, mọi mặt trận: quân sự, chính trị, kinh tế, văn hóa, tư tưởng, ngoại giao."
+    },
+    {
+      "id": "q-033",
+      "topic": "duong-loi",
+      "difficulty": "kho",
+      "question": "Theo tư tưởng “lâu dài”, yếu tố nào được dùng để “chuyển hóa yếu thành mạnh”?",
+      "options": ["Thời gian", "Viện trợ", "Địa hình", "Khí hậu"],
+      "answer": 0,
+      "explanation": "Lấy thời gian là lực lượng vật chất để chuyển hóa yếu thành mạnh: vừa đánh tiêu hao địch, vừa xây dựng, phát triển lực lượng ta từng bước."
+    },
+    {
+      "id": "q-034",
+      "topic": "duong-loi",
+      "difficulty": "de",
+      "question": "Chỉ thị nào của Đảng ngày 25-11-1945 chuẩn bị tư tưởng và lực lượng cho kháng chiến?",
+      "options": ["Kháng chiến kiến quốc", "Hòa để tiến", "Toàn dân kháng chiến", "Tình hình và chủ trương"],
+      "answer": 0,
+      "explanation": "Chỉ thị Kháng chiến kiến quốc (25-11-1945) là một trong những văn bản đầu tiên định hình đường lối kháng chiến của Đảng."
+    },
+    {
+      "id": "q-035",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Trong “dựa vào sức mình là chính”, yếu tố nào được coi là quan trọng hàng đầu?",
+      "options": ["Viện trợ vũ khí", "Độc lập, tự chủ về đường lối", "Sự ủng hộ của Liên Hợp Quốc", "Địa hình chiến lược"],
+      "answer": 1,
+      "explanation": "Lấy độc lập, tự chủ về đường lối là yếu tố quan trọng hàng đầu trong tư tưởng “dựa vào sức mình là chính”."
+    },
+    {
+      "id": "q-036",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Bên cạnh mục tiêu dân tộc, cuộc kháng chiến còn hướng tới đóng góp gì cho thế giới?",
+      "options": [
+        "Góp phần bảo vệ hòa bình thế giới, vì nền tự do dân chủ",
+        "Thành lập liên bang Đông Dương",
+        "Xuất khẩu cách mạng sang các nước láng giềng",
+        "Thay mặt Liên Hợp Quốc giữ hòa bình"
+      ],
+      "answer": 0,
+      "explanation": "Mục tiêu kháng chiến: giành độc lập, tự do, thống nhất hoàn toàn; vì nền tự do dân chủ và góp phần bảo vệ hòa bình thế giới."
+    },
+    {
+      "id": "q-037",
+      "topic": "duong-loi",
+      "difficulty": "kho",
+      "question": "Vì sao Lời kêu gọi toàn quốc kháng chiến và đường lối của Đảng được đánh giá là “ngọn cờ dẫn đường”?",
+      "options": [
+        "Vì được quốc tế ca ngợi nhiều nhất",
+        "Vì hoàn toàn đúng đắn, được nhân dân ủng hộ, trở thành nhân tố quan trọng hàng đầu quyết định thắng lợi",
+        "Vì được viết bằng thơ",
+        "Vì Pháp thừa nhận đường lối của ta"
+      ],
+      "answer": 1,
+      "explanation": "Đường lối hoàn toàn đúng đắn, được nhân dân ủng hộ, hưởng ứng suốt quá trình kháng chiến và trở thành nhân tố quan trọng hàng đầu quyết định thắng lợi."
+    },
+    {
+      "id": "q-038",
+      "topic": "duong-loi",
+      "difficulty": "trung-binh",
+      "question": "Kháng chiến toàn dân yêu cầu động viên những nguồn lực nào của dân?",
+      "options": [
+        "Chỉ sức người",
+        "Toàn bộ sức dân, tài dân, lực dân",
+        "Chỉ tài chính quốc gia",
+        "Chỉ lực lượng vũ trang"
+      ],
+      "answer": 1,
+      "explanation": "Kháng chiến toàn dân là đem toàn bộ sức dân, tài dân, lực dân; động viên toàn dân tích cực tham gia kháng chiến."
+    },
+    {
+      "id": "q-039",
+      "topic": "duong-loi",
+      "difficulty": "kho",
+      "question": "Câu nói “Chúng ta càng nhân nhượng, thực dân Pháp càng lấn tới” rút ra bài học gì về sách lược hòa hoãn?",
+      "options": [
+        "Nhân nhượng vô hạn độ để giữ hòa bình",
+        "Nhân nhượng có nguyên tắc, có giới hạn; khi địch lấn tới thì phải quyết tâm chiến đấu bảo vệ độc lập",
+        "Từ bỏ đường lối hòa bình",
+        "Chỉ nhân nhượng trong ngoại giao, không liên quan quân sự"
+      ],
+      "answer": 1,
+      "explanation": "Lời kêu gọi chỉ rõ: ta muốn hòa bình nên nhân nhượng, nhưng Pháp càng lấn tới — vì vậy khi hòa bình bị cự tuyệt, nhân dân ta chỉ còn lựa chọn cầm súng bảo vệ độc lập."
+    },
+    {
+      "id": "q-040",
+      "topic": "duong-loi",
+      "difficulty": "de",
+      "question": "Tác giả Lời kêu gọi toàn quốc kháng chiến viết trong thư gửi đồng bào câu nào sau đây?",
+      "options": [
+        "“Thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ”",
+        "“Quyết tử cho Tổ quốc quyết sinh”",
+        "“Tất cả cho tiền tuyến, tất cả để chiến thắng”",
+        "“Nhiệm vụ nào cũng hoàn thành”"
+      ],
+      "answer": 0,
+      "explanation": "Trích Lời kêu gọi toàn quốc kháng chiến (19-12-1946): “Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ.” (Hồ Chí Minh Toàn tập, tập 4, tr. 534)."
+    },
+    {
+      "id": "q-041",
+      "topic": "to-chuc",
+      "difficulty": "de",
+      "question": "Sau ngày toàn quốc kháng chiến, Trung ương Đảng quyết định chia cả nước thành các gì?",
+      "options": ["Tỉnh và huyện", "Khu (sau này thành chiến khu quân sự)", "Liên khu hành chính", "Miền kháng chiến"],
+      "answer": 1,
+      "explanation": "Trung ương quyết định chia cả nước thành các khu và sau này thành các chiến khu quân sự để phục vụ yêu cầu chỉ đạo cuộc kháng chiến."
+    },
+    {
+      "id": "q-042",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Hội nghị cán bộ Trung ương ngày 6-4-1947 nhấn mạnh nhiệm vụ nào sau đây?",
+      "options": [
+        "Mở rộng mặt trận dân tộc thống nhất, củng cố chính quyền vùng địch tạm chiếm, phát động chiến tranh du kích, mở đợt phát triển đảng viên “Lớp tháng Tám”",
+        "Tổng phản công giải phóng Hà Nội",
+        "Ký hiệp định đình chiến với Pháp",
+        "Di chuyển Chính phủ sang Trung Quốc"
+      ],
+      "answer": 0,
+      "explanation": "Hội nghị 6-4-1947 nhấn mạnh mở rộng mặt trận dân tộc thống nhất, củng cố chính quyền vùng địch tạm chiếm, phát động chiến tranh du kích, đẩy mạnh ngoại giao và xây dựng Đảng với đợt “Lớp tháng Tám”."
+    },
+    {
+      "id": "q-043",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Cuối năm 1947, tổng số đảng viên toàn Đảng là bao nhiêu?",
+      "options": ["Hơn 30.000 người", "Hơn 50.000 người", "Hơn 70.000 người", "Hơn 100.000 người"],
+      "answer": 2,
+      "explanation": "Sau đợt phát triển “Lớp tháng Tám”, cuối năm 1947 tổng số đảng viên toàn Đảng tăng lên đến hơn 70.000 người."
+    },
+    {
+      "id": "q-044",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Cuối năm 1947, bộ đội chính quy của ta được biên chế thành bao nhiêu trung đoàn và tiểu đoàn độc lập?",
+      "options": [
+        "30 trung đoàn và 10 tiểu đoàn",
+        "57 trung đoàn và 20 tiểu đoàn",
+        "20 trung đoàn và 57 tiểu đoàn",
+        "12 trung đoàn và 5 tiểu đoàn"
+      ],
+      "answer": 1,
+      "explanation": "Bộ đội chính quy phát triển lên hơn 12 vạn quân, biên chế thành 57 trung đoàn và 20 tiểu đoàn độc lập."
+    },
+    {
+      "id": "q-045",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Cuối năm 1947, lực lượng dân quân tự vệ đã phát triển lên bao nhiêu?",
+      "options": ["Hơn 20 vạn người", "Hơn 50 vạn người", "Hơn 1 triệu người", "Hơn 3 triệu người"],
+      "answer": 2,
+      "explanation": "Bên cạnh hơn 12 vạn bộ đội chính quy, lực lượng dân quân tự vệ đã phát triển lên hơn 1 triệu người."
+    },
+    {
+      "id": "q-046",
+      "topic": "to-chuc",
+      "difficulty": "de",
+      "question": "Đợt phát triển đảng viên mới năm 1947 được gọi tên là gì?",
+      "options": ["“Lớp tháng Chín”", "“Lớp tháng Tám”", "“Lớp Vạn Phúc”", "“Lớp kháng chiến”"],
+      "answer": 1,
+      "explanation": "Hội nghị 6-4-1947 chủ trương mở đợt phát triển đảng viên mới “Lớp tháng Tám”; nhiều quần chúng ưu tú công, nông, trí gia nhập Đảng."
+    },
+    {
+      "id": "q-047",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Về trang bị, cuối năm 1947 toàn quân có khoảng bao nhiêu khẩu súng và bao nhiêu công xưởng?",
+      "options": [
+        "Khoảng 1 vạn khẩu súng, 10 công xưởng",
+        "Khoảng 3 vạn khẩu súng, hơn 20 công xưởng",
+        "Khoảng 5 vạn khẩu súng, 40 công xưởng",
+        "Khoảng 10 vạn khẩu súng, 60 công xưởng"
+      ],
+      "answer": 1,
+      "explanation": "Trang bị vũ khí được cải thiện: khoảng 3 vạn khẩu súng, toàn quân có hơn 20 công xưởng sửa chữa, sản xuất vũ khí thô sơ."
+    },
+    {
+      "id": "q-048",
+      "topic": "to-chuc",
+      "difficulty": "kho",
+      "question": "Chiến công điển hình của Công an nhân dân năm 1950 được ghi nhận là gì?",
+      "options": [
+        "Tổ A13 đánh đắm Thông báo hạm Amiôđanhvin của Pháp ở ngoài khơi Sầm Sơn, Thanh Hóa",
+        "Bắt sống tướng chỉ huy Pháp ở Hà Nội",
+        "Giải phóng thị xã Lạng Sơn",
+        "Phá kho đạn của Pháp ở Hải Phòng"
+      ],
+      "answer": 0,
+      "explanation": "Tổ điệp báo A13 đánh đắm Thông báo hạm Amiôđanhvin (9-1950), đập tan âm mưu mua chuộc, lôi kéo xây dựng “chiến khu quốc gia” ở Thanh – Nghệ – Tĩnh."
+    },
+    {
+      "id": "q-049",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Sắc lệnh về nghĩa vụ quân sự được Chủ tịch Hồ Chí Minh ký ban hành vào thời gian nào?",
+      "options": ["Tháng 11-1948", "Tháng 11-1949", "Tháng 2-1950", "Tháng 6-1950"],
+      "answer": 1,
+      "explanation": "Tháng 11-1949, Hồ Chí Minh ký ban hành Sắc lệnh về nghĩa vụ quân sự; trong quân đội có phong trào “luyện quân lập công”, “rèn cán, chỉnh quân”."
+    },
+    {
+      "id": "q-050",
+      "topic": "to-chuc",
+      "difficulty": "de",
+      "question": "Ba thứ quân của ta trong kháng chiến chống Pháp gồm những lực lượng nào?",
+      "options": [
+        "Bộ đội chủ lực, bộ đội địa phương, dân quân du kích",
+        "Vệ quốc đoàn, Tự vệ chiến đấu, Công an xung phong",
+        "Bộ đội chính quy, du kích, thanh niên xung phong",
+        "Quân chủ lực, quân khu, quân đoàn"
+      ],
+      "answer": 0,
+      "explanation": "Lực lượng ba thứ quân (bộ đội chủ lực, bộ đội địa phương, dân quân du kích) được phát triển nhanh chóng và trưởng thành về mọi mặt."
+    },
+    {
+      "id": "q-051",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Đầu năm 1950, lực lượng của ta phát triển đến mức nào?",
+      "options": [
+        "23 vạn bộ đội (trong đó 40.000 đảng viên) và 3 triệu dân quân tự vệ, du kích",
+        "12 vạn bộ đội và 1 triệu dân quân",
+        "50 vạn bộ đội và 5 triệu dân quân",
+        "10 vạn bộ đội và 50 vạn dân quân"
+      ],
+      "answer": 0,
+      "explanation": "Đầu năm 1950: 23 vạn bộ đội, trong đó có 40.000 đảng viên; dân quân tự vệ và du kích lên đến 3 triệu người; lực lượng cơ động của ta hơn hẳn địch."
+    },
+    {
+      "id": "q-052",
+      "topic": "to-chuc",
+      "difficulty": "kho",
+      "question": "Vì sao từ cuối năm 1950 Đảng quyết định tạm ngừng phát triển Đảng?",
+      "options": [
+        "Thiếu cán bộ giảng dạy",
+        "Phát hiện việc phát triển Đảng “quá nóng”, mắc sai lầm về tiêu chuẩn đảng viên; cần củng cố, uốn nắn",
+        "Để tập trung tiền của cho chiến trường",
+        "Do yêu cầu của quốc tế"
+      ],
+      "answer": 1,
+      "explanation": "Từ cuối năm 1950, Đảng tạm ngừng phát triển Đảng để củng cố; Trung ương ra chỉ thị uốn nắn sai lầm chủ quan nóng vội, muốn chuyển nhanh sang tổng phản công, động viên sức dân vượt quá sức dân."
+    },
+    {
+      "id": "q-053",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Hội nghị Văn hóa toàn quốc (tháng 7-1948) thông qua nền văn hóa mới mang tính chất gì?",
+      "options": ["Dân tộc, khoa học, đại chúng", "Đại chúng, hiện đại, quốc tế", "Dân tộc, cổ truyền, quý tộc", "Khoa học, kỹ thuật, thực dụng"],
+      "answer": 0,
+      "explanation": "Hội nghị nhất trí đường lối xây dựng nền văn hóa mới mang tính chất dân tộc, khoa học, đại chúng; xóa bỏ tàn tích văn hóa thực dân, phong kiến."
+    },
+    {
+      "id": "q-054",
+      "topic": "to-chuc",
+      "difficulty": "de",
+      "question": "Lời kêu gọi Thi đua ái quốc của Chủ tịch Hồ Chí Minh được ra vào ngày nào?",
+      "options": ["11-6-1947", "11-6-1948", "11-6-1949", "11-6-1950"],
+      "answer": 1,
+      "explanation": "Lời kêu gọi Thi đua ái quốc ngày 11-6-1948 được các ngành, các giới hưởng ứng mạnh mẽ, thúc đẩy sản xuất tự cấp, tự túc phục vụ kháng chiến."
+    },
+    {
+      "id": "q-055",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Ở vùng tạm bị chiếm, Đảng chỉ đạo phát triển chiến tranh du kích với khẩu hiệu/chủ trương nào?",
+      "options": [
+        "“Biến hậu phương của địch thành tiền phương của ta”",
+        "“Đánh nhanh, thắng nhanh”",
+        "“Vùng lên giành chính quyền”",
+        "“Hòa để tiến”"
+      ],
+      "answer": 0,
+      "explanation": "Trong vùng tạm bị chiếm, Đảng chỉ đạo phát triển mạnh chiến tranh du kích để “biến hậu phương của địch thành tiền phương của ta”: tổng phá tề, trừ gian, chống càn quét."
+    },
+    {
+      "id": "q-056",
+      "topic": "to-chuc",
+      "difficulty": "kho",
+      "question": "Trận đánh nào đánh dấu cách đánh đặc biệt (sau gọi là đặc công) của bộ đội ta ở Khu VII?",
+      "options": ["Trận cầu Bà Kiên, đêm 18-4-1950", "Trận La Ngà, 3-1948", "Trận Cầu Kè – Trà Vinh, 4-1949", "Trận Đồng Dương, 4-1948"],
+      "answer": 0,
+      "explanation": "Đêm 18-4-1950, bộ đội Khu VII dùng mìn đánh tháp canh và các mục tiêu cầu, cống, kho tàng của địch ở cầu Bà Kiên — trận đánh đầu tiên của cách đánh đặc biệt (đặc công)."
+    },
+    {
+      "id": "q-057",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Chiến dịch Cầu Kè – Trà Vinh (4-1949) diễn ra ở mặt trận nào?",
+      "options": ["Mặt trận Khu VIII", "Mặt trận Khu VII", "Mặt trận khu IV", "Mặt trận Nam Trung Bộ"],
+      "answer": 0,
+      "explanation": "Mặt trận Khu VIII mở chiến dịch Cầu Kè – Trà Vinh (4-1949), đánh vây đồn, diệt viện và thu được thắng lợi to lớn."
+    },
+    {
+      "id": "q-058",
+      "topic": "to-chuc",
+      "difficulty": "kho",
+      "question": "Từ giữa năm 1949, tướng Revers (Tổng Tham mưu trưởng quân đội Pháp) đề ra kế hoạch gì?",
+      "options": [
+        "Mở rộng chiếm đóng đồng bằng, trung du Bắc Bộ, phong tỏa, khóa chặt biên giới Việt – Trung",
+        "Rút quân về đồng bằng Nam Bộ",
+        "Tấn công vào ATK Việt Bắc bằng đường không",
+        "Xây dựng “chiến khu quốc gia” ở Thanh – Nghệ – Tĩnh"
+      ],
+      "answer": 0,
+      "explanation": "Kế hoạch Revers: mở rộng chiếm đóng đồng bằng, trung du Bắc Bộ, phong tỏa, khóa chặt biên giới Việt – Trung — buộc ta phải mở chiến dịch phá vòng vây."
+    },
+    {
+      "id": "q-059",
+      "topic": "to-chuc",
+      "difficulty": "trung-binh",
+      "question": "Sắc lệnh tổng động viên tháng 2-1950 huy động những gì của toàn dân?",
+      "options": [
+        "Nhân lực, vật lực, tài lực",
+        "Chỉ nhân lực",
+        "Chỉ lương thực và vũ khí",
+        "Chỉ thanh niên xung phong"
+      ],
+      "answer": 0,
+      "explanation": "Tháng 2-1950, Đảng và Hồ Chí Minh chủ trương tổng động viên, ra sắc lệnh huy động nhân lực, vật lực, tài lực của toàn dân để đẩy mạnh kháng chiến."
+    },
+    {
+      "id": "q-060",
+      "topic": "to-chuc",
+      "difficulty": "de",
+      "question": "Trong quân đội ta những năm 1949–1950, các cuộc vận động nào được phát động?",
+      "options": [
+        "“Luyện quân lập công” và “rèn cán, chỉnh quân”",
+        "“Thi đua ái quốc” và “bình dân học vụ”",
+        "“Xây dựng chi bộ tự động công tác” và “luyện quân lập công”",
+        "“Cải cách ruộng đất” và “tăng gia sản xuất”"
+      ],
+      "answer": 0,
+      "explanation": "Trong quân đội có cuộc vận động “luyện quân lập công” và tiếp theo là phong trào thi đua “rèn cán, chỉnh quân”."
+    },
+    {
+      "id": "q-061",
+      "topic": "bien-gioi",
+      "difficulty": "de",
+      "question": "Chiến dịch Biên giới Thu Đông 1950 diễn ra từ ngày nào đến ngày nào?",
+      "options": ["16-9-1950 đến 17-10-1950", "1-9-1950 đến 30-9-1950", "16-8-1950 đến 17-9-1950", "1-10-1950 đến 31-10-1950"],
+      "answer": 0,
+      "explanation": "Cuộc chiến đấu diễn ra không nghỉ trong suốt 30 ngày đêm liên tục, từ ngày 16-9 đến 17-10-1950."
+    },
+    {
+      "id": "q-062",
+      "topic": "bien-gioi",
+      "difficulty": "de",
+      "question": "Chiến dịch Biên giới Thu Đông 1950 tiến công dọc tuyến biên giới thuộc hai tỉnh nào?",
+      "options": ["Cao Bằng và Lạng Sơn", "Lào Cai và Hà Giang", "Quảng Ninh và Hải Phòng", "Cao Bằng và Lào Cai"],
+      "answer": 0,
+      "explanation": "Tháng 6-1950, Ban Thường vụ Trung ương Đảng quyết định mở chiến dịch tiến công dọc tuyến biên giới Việt – Trung thuộc 2 tỉnh Cao Bằng và Lạng Sơn."
+    },
+    {
+      "id": "q-063",
+      "topic": "bien-gioi",
+      "difficulty": "de",
+      "question": "Ai đã đi thị sát và trực tiếp chỉ đạo Chiến dịch Biên giới Thu Đông 1950?",
+      "options": ["Đại tướng Võ Nguyên Giáp", "Chủ tịch Hồ Chí Minh", "Tổng Bí thư Trường Chinh", "Thiếu tướng Hoàng Văn Thái"],
+      "answer": 1,
+      "explanation": "Đây là chiến dịch lớn đầu tiên do quân ta chủ động mở; đích thân Chủ tịch Hồ Chí Minh đi thị sát và trực tiếp chỉ đạo chiến dịch."
+    },
+    {
+      "id": "q-064",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Mục tiêu của Chiến dịch Biên giới Thu Đông 1950 là gì?",
+      "options": [
+        "Tiêu diệt một bộ phận quan trọng sinh lực địch, mở rộng căn cứ địa Việt Bắc, tạo hành lang thông thương với Trung Quốc và các nước xã hội chủ nghĩa",
+        "Giải phóng hoàn toàn miền Bắc",
+        "Đánh chiếm Hà Nội",
+        "Phá vỡ phòng tuyến sông Hồng"
+      ],
+      "answer": 0,
+      "explanation": "Chiến dịch nhằm tiêu diệt một bộ phận quan trọng sinh lực địch, mở rộng căn cứ địa Việt Bắc, tạo hành lang rộng mở quan hệ thông thương với Trung Quốc và các nước xã hội chủ nghĩa."
+    },
+    {
+      "id": "q-065",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Chiến dịch Biên giới Thu Đông 1950 kéo dài bao nhiêu ngày đêm liên tục?",
+      "options": ["20 ngày đêm", "30 ngày đêm", "45 ngày đêm", "75 ngày đêm"],
+      "answer": 1,
+      "explanation": "Cuộc chiến đấu anh dũng, quyết liệt diễn ra không nghỉ trong suốt 30 ngày đêm liên tục (16-9 đến 17-10-1950)."
+    },
+    {
+      "id": "q-066",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Thắng lợi Chiến dịch Biên giới Thu Đông 1950 được đánh giá như thế nào?",
+      "options": [
+        "“Đạt được mục tiêu diệt địch, kết thúc thời kỳ chiến đấu trong vòng vây”, mở cục diện mới cho kháng chiến",
+        "Chỉ là thắng lợi nhỏ về tinh thần",
+        "Kết thúc chiến tranh Đông Dương",
+        "Buộc Pháp ký hiệp định Geneva"
+      ],
+      "answer": 0,
+      "explanation": "Chiến thắng mở ra cục diện mới, đưa cuộc kháng chiến chuyển sang giai đoạn phát triển cao hơn, “đạt được mục tiêu diệt địch, kết thúc thời kỳ chiến đấu trong vòng vây”."
+    },
+    {
+      "id": "q-067",
+      "topic": "bien-gioi",
+      "difficulty": "de",
+      "question": "Chiến dịch Biên giới Thu Đông 1950 có vị trí đặc biệt nào trong lịch sử kháng chiến?",
+      "options": [
+        "Là chiến dịch quân sự lớn, quan trọng đầu tiên do quân ta chủ động mở",
+        "Là chiến dịch cuối cùng của cuộc kháng chiến",
+        "Là chiến dịch do quân đội đồng minh chỉ huy",
+        "Là chiến dịch phòng ngự đầu tiên"
+      ],
+      "answer": 0,
+      "explanation": "Đây là chiến dịch quân sự lớn, quan trọng đầu tiên do quân ta chủ động mở — từ bị động chuyển sang chủ động tiến công trên quy mô lớn."
+    },
+    {
+      "id": "q-068",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Tuyến biên giới của Chiến dịch Thu Đông 1950 kéo dài từ đâu đến đâu?",
+      "options": [
+        "Từ thị xã Cao Bằng đến Đình Lập (giáp Móng Cái)",
+        "Từ Lào Cai đến Móng Cái",
+        "Từ Hà Giang đến Lạng Sơn",
+        "Từ Cao Bằng đến Hà Nội"
+      ],
+      "answer": 0,
+      "explanation": "Chiến dịch trải dọc theo tuyến biên giới Việt – Trung từ thị xã Cao Bằng đến Đình Lập (giáp Móng Cái)."
+    },
+    {
+      "id": "q-069",
+      "topic": "bien-gioi",
+      "difficulty": "kho",
+      "question": "Trận đánh mở màn của Chiến dịch Biên giới Thu Đông 1950 (16-9-1950) nhằm cứ điểm nào?",
+      "options": ["Cứ điểm Đông Khê", "Cứ điểm Thất Khê", "Cứ điểm Na Sầm", "Cứ điểm Đồng Đăng"],
+      "answer": 0,
+      "explanation": "Ngày 16-9-1950, trung đoàn 174 và trung đoàn 209 chủ động đánh chiếm cứ điểm Đông Khê, cô lập Cao Bằng, uy hiếp Thất Khê, phá thế trận phòng thủ đường số 4."
+    },
+    {
+      "id": "q-070",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Sự kiện quốc tế nào ngày 1-10-1949 có tác động to lớn đến cuộc kháng chiến của ta?",
+      "options": [
+        "Đảng Cộng sản Trung Quốc giành chính quyền; Nhà nước Cộng hòa Nhân dân Trung Hoa ra đời",
+        "Liên Xô thử nghiệm vũ khí hạt nhân",
+        "Liên Hợp Quốc ra nghị quyết về Đông Dương",
+        "Mỹ ký hiệp ước với Pháp"
+      ],
+      "answer": 0,
+      "explanation": "Ngày 1-10-1949, Đảng Cộng sản Trung Quốc giành được chính quyền, Nhà nước Cộng hòa Nhân dân Trung Hoa ra đời; thế chiến lược quân sự của Pháp ở Đông Dương bị đảo lộn."
+    },
+    {
+      "id": "q-071",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Nước nào công nhận và đặt quan hệ ngoại giao với Việt Nam Dân chủ Cộng hòa trước tiên trong đợt đầu năm 1950?",
+      "options": ["Trung Quốc (18-1-1950)", "Liên Xô (30-1-1950)", "Triều Tiên (2-1950)", "Cộng hòa Dân chủ Đức"],
+      "answer": 0,
+      "explanation": "Lần lượt Chính phủ Trung Quốc (18-1-1950), Liên Xô (30-1-1950) và các nhà nước dân chủ nhân dân Đông Âu, Triều Tiên (2-1950) công nhận và đặt quan hệ ngoại giao với Việt Nam Dân chủ Cộng hòa."
+    },
+    {
+      "id": "q-072",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Liên Xô công nhận Việt Nam Dân chủ Cộng hòa vào ngày nào?",
+      "options": ["18-1-1950", "30-1-1950", "2-2-1950", "1-10-1949"],
+      "answer": 1,
+      "explanation": "Sau chuyến thăm của Chủ tịch Hồ Chí Minh, Liên Xô công nhận Việt Nam Dân chủ Cộng hòa ngày 30-1-1950."
+    },
+    {
+      "id": "q-073",
+      "topic": "bien-gioi",
+      "difficulty": "kho",
+      "question": "Vì sao việc khai thông biên giới Việt – Trung sau Chiến dịch Biên giới lại có ý nghĩa chiến lược?",
+      "options": [
+        "Tạo hành lang tiếp nhận viện trợ, mở quan hệ thông thương với Trung Quốc và các nước xã hội chủ nghĩa",
+        "Giúp ta mở đại sứ quán tại Trung Quốc",
+        "Cho phép di chuyển dân cư sang Trung Quốc",
+        "Thúc đẩy Pháp đàm phán tại Geneva"
+      ],
+      "answer": 0,
+      "explanation": "Hành lang biên giới rộng mở giúp tiếp nhận viện trợ, tăng cường quan hệ với Trung Quốc và các nước xã hội chủ nghĩa, tạo điều kiện thúc đẩy kháng chiến phát triển."
+    },
+    {
+      "id": "q-074",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Đối với Lào và Campuchia, Đảng ta chủ trương gì trong kháng chiến chống Pháp?",
+      "options": [
+        "“Mở rộng mặt trận Lào – Miên”, thắt chặt đoàn kết chiến đấu Việt – Miên – Lào, giúp bạn và cùng bạn chiến đấu",
+        "Trung lập hóa bán đảo Đông Dương",
+        "Không can thiệp vào công việc của bạn",
+        "Thành lập liên bang Đông Dương dưới sự bảo hộ của Pháp"
+      ],
+      "answer": 0,
+      "explanation": "Đảng chủ trương “mở rộng mặt trận Lào – Miên”, thắt chặt tình đoàn kết chiến đấu Việt – Miên – Lào để giúp bạn và cùng bạn chiến đấu; cử cán bộ sang giúp Lào, giúp Campuchia thành lập Ủy ban dân tộc giải phóng Khơme."
+    },
+    {
+      "id": "q-075",
+      "topic": "bien-gioi",
+      "difficulty": "de",
+      "question": "Ai là học sinh, sinh viên Sài Gòn hy sinh trong phong trào biểu tình ngày 9-1-1950?",
+      "options": ["Trần Văn Ơn", "Nguyễn Văn Trỗi", "Lê Văn Tám", "Võ Thị Sáu"],
+      "answer": 0,
+      "explanation": "Ngày 9-1-1950, 3.000 sinh viên Sài Gòn biểu tình, Trần Văn Ơn hy sinh — biểu tượng của phong trào học sinh, sinh viên đô thị chống thực dân."
+    },
+    {
+      "id": "q-076",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Ngày 19-3-1950, hơn 500.000 người dân Sài Gòn biểu tình chống ai, vì lý do gì?",
+      "options": [
+        "Chống Mỹ khi Mỹ đưa tàu chiến tới Cảng Sài Gòn",
+        "Chống Pháp khi Pháp tăng thuế",
+        "Chống chính quyền bù nhìn",
+        "Chống Anh – Ấn chiếm đóng"
+      ],
+      "answer": 0,
+      "explanation": "Mỹ ngày càng can thiệp sâu vào chiến tranh để thay thế Pháp; ngày 19-3-1950, hơn 500.000 người dân Sài Gòn biểu tình chống Mỹ khi Mỹ đưa tàu chiến tới Cảng Sài Gòn."
+    },
+    {
+      "id": "q-077",
+      "topic": "bien-gioi",
+      "difficulty": "kho",
+      "question": "“Chiến thuật mạng nhện” mà địch áp dụng ở Nam Bộ là gì?",
+      "options": [
+        "Hệ thống tháp canh dày đặc để kìm kẹp vùng giải phóng",
+        "Chiến thuật bao vây bằng tàu chiến",
+        "Phong tỏa đường sông bằng thủy lôi",
+        "Chiến tranh tâm lý trên đài phát thanh"
+      ],
+      "answer": 0,
+      "explanation": "Địa bàn Nam Bộ bị địch thực hiện “chiến thuật mạng nhện” với hệ thống tháp canh dày đặc; Xứ ủy Nam Bộ chỉ đạo đưa phong trào du kích phát triển để khắc phục."
+    },
+    {
+      "id": "q-078",
+      "topic": "bien-gioi",
+      "difficulty": "trung-binh",
+      "question": "Sau thắng lợi Chiến dịch Biên giới Thu Đông 1950, cuộc kháng chiến chuyển sang giai đoạn nào?",
+      "options": [
+        "Giai đoạn phát triển cao hơn",
+        "Giai đoạn phòng ngự toàn diện",
+        "Giai đoạn đàm phán hòa bình",
+        "Giai đoạn kết thúc chiến tranh"
+      ],
+      "answer": 0,
+      "explanation": "Chiến thắng mở ra cục diện mới, đưa cuộc kháng chiến chuyển sang giai đoạn phát triển cao hơn."
+    },
+    {
+      "id": "q-079",
+      "topic": "bien-gioi",
+      "difficulty": "kho",
+      "question": "Đầu năm 1950, tương quan lực lượng cơ động trên chiến trường như thế nào?",
+      "options": [
+        "Lực lượng cơ động của ta hơn hẳn địch: ta có 2 Đại đoàn (304, 308) và các trung đoàn chủ lực, Pháp chỉ có 12 tiểu đoàn cơ động chiến lược",
+        "Hai bên ngang sức nhau",
+        "Pháp hơn hẳn ta về quân số cơ động",
+        "Ta chỉ có dân quân du kích, không có lực lượng cơ động"
+      ],
+      "answer": 0,
+      "explanation": "Đầu năm 1950, quân đội ta có 2 Đại đoàn (304 và 308), 2 trung đoàn chủ lực và 12 trung đoàn chủ lực Liên khu; quân Pháp ở Việt Nam chỉ có 12 tiểu đoàn cơ động chiến lược."
+    },
+    {
+      "id": "q-080",
+      "topic": "bien-gioi",
+      "difficulty": "kho",
+      "question": "Kế hoạch mở Chiến dịch Biên giới được Ban Thường vụ Trung ương Đảng quyết định vào thời gian nào?",
+      "options": ["Tháng 6-1950", "Tháng 3-1950", "Tháng 9-1950", "Cuối năm 1949"],
+      "answer": 0,
+      "explanation": "Tháng 6-1950, Ban Thường vụ Trung ương Đảng quyết định mở chiến dịch quân sự lớn tiến công địch dọc tuyến biên giới Việt – Trung thuộc 2 tỉnh Cao Bằng và Lạng Sơn."
+    }
+  ]
+}
