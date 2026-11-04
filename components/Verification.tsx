@@ -32,7 +32,7 @@ export default function Verification() {
           </tbody>
         </table>
       </div>
-      <p className="map-note">
+      <p className="section-note">
         Nội dung website phỏng theo tài liệu học tập được cung cấp; các trích dẫn con số, sự kiện
         được đối chiếu với nguồn mở (Đảng Cộng sản Việt Nam, Tư liệu Văn kiện Đảng, Bảo tàng Lịch sử
         quốc gia, Học viện Quốc phòng). Nếu phát hiện sai lệch, xin đối chiếu lại tài liệu gốc.

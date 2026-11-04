@@ -16,7 +16,7 @@
       "description": "Nằm lòng tinh thần “thà hy sinh tất cả…” và ý nghĩa lịch sử của Lời kêu gọi.",
       "tasks": [
         { "id": "d2-t1", "label": "Đọc thư viện trích dẫn, học thuộc 2 câu trích dẫn chính" },
-        { "id": "d2-t2", "label": "Xem mục Bản đồ: điểm Hà Nội & Vạn Phúc" },
+        { "id": "d2-t2", "label": "Xem Dòng thời gian: chi tiết mốc Vạn Phúc 18-12 và nổ súng 19-12-1946" },
         { "id": "d2-t3", "label": "Ôn 5 flashcard chủ đề “Khởi đầu 1946”" }
       ]
     },
@@ -55,7 +55,7 @@
       "title": "Đường tới biên giới",
       "description": "Chiến dịch Biên giới Thu Đông 1950 — 30 ngày đêm mở đường.",
       "tasks": [
-        { "id": "d6-t1", "label": "Khám phá bản đồ hành trình từ ATK đến Đình Lập" },
+        { "id": "d6-t1", "label": "Xem Dòng thời gian: từ quyết định mở chiến dịch (6-1950) đến thắng lợi 17-10-1950" },
         { "id": "d6-t2", "label": "Đọc thư viện trích dẫn & bảng kiểm chứng về thắng lợi Biên giới 1950" },
         { "id": "d6-t3", "label": "Luyện tập quiz chủ đề “Chiến dịch Biên giới 1950”" }
       ]

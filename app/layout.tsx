@@ -9,11 +9,12 @@ import '@fontsource/lora/700.css';
 import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import { AuthProvider } from '@/lib/auth-context';
 
 export const metadata: Metadata = {
   title: 'Đường tới biên giới — Kháng chiến toàn quốc 1946–1950',
   description:
-    'Trải nghiệm tương tác về cuộc kháng chiến toàn quốc 1946–1950: dòng thời gian, bản đồ hành trình tới biên giới, quiz ~80 câu, flashcard và lộ trình ôn tập 7 ngày.',
+    'Trải nghiệm tương tác về cuộc kháng chiến toàn quốc 1946–1950: dòng thời gian, quiz ~80 câu, flashcard, lộ trình ôn tập 7 ngày và âm thanh lịch sử giọng Bác.',
   keywords: [
     'Đường tới biên giới',
     'kháng chiến toàn quốc 1946',
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Đường tới biên giới — Kháng chiến toàn quốc 1946–1950',
     description:
-      'Dòng thời gian, bản đồ tương tác, quiz và flashcard về cuộc kháng chiến chống Pháp 1946–1950.',
+      'Dòng thời gian, quiz, flashcard và âm thanh lịch sử về cuộc kháng chiến chống Pháp 1946–1950.',
     type: 'website',
     locale: 'vi_VN',
   },
@@ -34,9 +35,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="vi">
       <body>
-        <Nav />
-        <main>{children}</main>
-        <Footer />
+        <AuthProvider>
+          <Nav />
+          <main>{children}</main>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   );

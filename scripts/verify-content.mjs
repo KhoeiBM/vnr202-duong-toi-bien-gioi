@@ -70,14 +70,6 @@ for (const ev of timeline.events) {
   ok(ev.title && ev.summary && ev.detail, `timeline ${ev.id}: thiếu nội dung`);
 }
 
-// ---- map ----
-const map = read('data/map-places.json');
-ok(map.places.length >= 8, `map-places.json: cần >= 8 điểm`);
-for (const p of map.places) {
-  ok(Array.isArray(p.coords) && p.coords.length === 2, `map ${p.id}: coords không hợp lệ`);
-  ok(typeof p.svg?.x === 'number' && typeof p.svg?.y === 'number', `map ${p.id}: thiếu toạ độ svg`);
-}
-
 // ---- flashcards & roadmap ----
 const flashcards = read('data/flashcards.json');
 ok(flashcards.cards.length >= 20, `flashcards.json: cần >= 20 thẻ`);
@@ -118,6 +110,6 @@ if (errors.length) {
 console.log(
   `✓ Kiểm chứng đạt: ${quiz.questions.length} câu quiz, ${quotes.quotes.length} trích dẫn, ` +
     `${verification.items.length} mục kiểm chứng, ${timeline.events.length} mốc thời gian, ` +
-    `${map.places.length} điểm bản đồ, ${flashcards.cards.length} flashcard, 7 ngày lộ trình, ` +
+    `${flashcards.cards.length} flashcard, 7 ngày lộ trình, ` +
     `${audio.clips.length} clip âm thanh nguồn chính thống.`
 );

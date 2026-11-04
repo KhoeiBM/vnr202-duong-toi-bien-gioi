@@ -1,14 +1,15 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import AccountMenu from './AccountMenu';
 
 const LINKS = [
   { href: '#thoi-gian', label: 'Dòng thời gian' },
-  { href: '#ban-do', label: 'Bản đồ' },
   { href: '#duong-loi', label: 'Đường lối' },
   { href: '#quiz', label: 'Trắc nghiệm' },
   { href: '#flashcard', label: 'Flashcard' },
   { href: '#lo-trinh', label: 'Lộ trình' },
+  { href: '#am-thanh', label: 'Âm thanh' },
   { href: '#trich-dan', label: 'Trích dẫn' },
   { href: '#kiem-chung', label: 'Kiểm chứng' },
 ];
@@ -52,6 +53,7 @@ export default function Nav() {
             </a>
           ))}
         </nav>
+        <AccountMenu />
       </div>
     </header>
   );
