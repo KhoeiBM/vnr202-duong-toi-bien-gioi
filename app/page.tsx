@@ -1,13 +1,8 @@
-'use client';
-
-import { useState } from 'react';
 import Hero from '@/components/Hero';
 import QuoteBanner from '@/components/QuoteBanner';
 import SectionHeading from '@/components/SectionHeading';
 import Reveal from '@/components/Reveal';
 import Timeline from '@/components/Timeline';
-import JourneyMap from '@/components/JourneyMap';
-import LeafletMap from '@/components/LeafletMap';
 import Quiz from '@/components/Quiz';
 import Flashcards from '@/components/Flashcards';
 import Roadmap from '@/components/Roadmap';
@@ -39,8 +34,6 @@ const PILLARS = [
 ];
 
 export default function Home() {
-  const [mapTab, setMapTab] = useState<'hanh-trinh' | 'tra-cuu'>('hanh-trinh');
-
   return (
     <>
       <Hero />
@@ -62,50 +55,12 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 02 — Bản đồ */}
-      <section className="section" id="ban-do">
-        <div className="container">
-          <Reveal>
-            <SectionHeading
-              kicker="02 · Bản đồ tương tác"
-              title="Đường tới biên giới"
-              desc="Hành trình từ đêm nổ súng ở Hà Nội, qua căn cứ địa ATK Việt Bắc, đến tuyến biên giới Cao Bằng – Lạng Sơn – Đình Lập."
-            />
-          </Reveal>
-          <Reveal>
-            <div className="map-tabs" role="tablist" aria-label="Chế độ bản đồ">
-              <button
-                className={`map-tab ${mapTab === 'hanh-trinh' ? 'is-active' : ''}`}
-                onClick={() => setMapTab('hanh-trinh')}
-                role="tab"
-                aria-selected={mapTab === 'hanh-trinh'}
-              >
-                Bản đồ hành trình
-              </button>
-              <button
-                className={`map-tab ${mapTab === 'tra-cuu' ? 'is-active' : ''}`}
-                onClick={() => setMapTab('tra-cuu')}
-                role="tab"
-                aria-selected={mapTab === 'tra-cuu'}
-              >
-                Bản đồ tra cứu (OpenStreetMap)
-              </button>
-            </div>
-          </Reveal>
-          <Reveal>
-            {mapTab === 'hanh-trinh' ? <JourneyMap /> : <LeafletMap />}
-          </Reveal>
-        </div>
-      </section>
-
-      <hr className="divider" />
-
-      {/* 03 — Đường lối */}
+      {/* 02 — Đường lối */}
       <section className="section" id="duong-loi">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="03 · Đường lối kháng chiến"
+              kicker="02 · Đường lối kháng chiến"
               title="Bốn trụ cột của đường lối"
               desc="Hình thành qua thực tiễn 1945–1947, thể hiện trong các Chỉ thị Kháng chiến kiến quốc (25-11-1945), Tình hình và chủ trương (3-3-1946), Hòa để tiến (9-3-1946), Toàn dân kháng chiến (12-12-1946), Lời kêu gọi toàn quốc kháng chiến (19-12-1946) và tác phẩm Kháng chiến nhất định thắng lợi của đồng chí Trường Chinh (8-1947)."
             />
@@ -128,12 +83,12 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 04 — Quiz */}
+      {/* 03 — Quiz */}
       <section className="section" id="quiz">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="04 · Trắc nghiệm"
+              kicker="03 · Trắc nghiệm"
               title="Thử tài cùng ngân hàng câu hỏi"
               desc="Khoảng 80 câu hỏi chia 4 chủ đề, 3 mức độ. Chế độ luyện tập có giải thích tức thì; chế độ thi thử tính giờ bốc ngẫu nhiên câu hỏi và lưu kỷ lục cá nhân."
             />
@@ -146,12 +101,12 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 05 — Flashcards */}
+      {/* 04 — Flashcards */}
       <section className="section" id="flashcard">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="05 · Flashcard tri thức"
+              kicker="04 · Flashcard tri thức"
               title="Ôn nhanh bằng thẻ lật"
               desc="20 thẻ kiến thức cốt lõi: định nghĩa, con số, sự kiện. Đánh dấu “đã thuộc” — tiến độ được lưu ngay trên máy bạn."
             />
@@ -164,13 +119,13 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 06 — Lộ trình */}
+      {/* 05 — Lộ trình */}
       <section className="section" id="lo-trinh">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="06 · Lộ trình ôn tập"
-              title="7 ngày tới biên giới"
+              kicker="05 · Lộ trình ôn tập"
+              title="Nắm chắc kiến thức giai đoạn 1946-1950 trong 7 ngày"
               desc="Kế hoạch học 7 ngày, mỗi ngày một trọng tâm với nhiệm vụ nhỏ. Tích vào ô đã hoàn thành để theo dõi tiến độ."
             />
           </Reveal>
@@ -182,12 +137,12 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 07 — Âm thanh lịch sử */}
+      {/* 06 — Âm thanh lịch sử */}
       <section className="section" id="am-thanh">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="07 · Âm thanh lịch sử"
+              kicker="06 · Âm thanh lịch sử"
               title="Nghe chính giọng Chủ tịch Hồ Chí Minh"
               desc="Bản ghi gốc từ kho Tư liệu Audio của hochiminh.vn: Lời kêu gọi toàn quốc kháng chiến 19-12-1946 và (bối cảnh mở đầu) Tuyên ngôn Độc lập 2-9-1945. Trình phát nhúng trực tiếp từ máy chủ nguồn, kèm nút mở tại nguồn dự phòng."
             />
@@ -200,12 +155,12 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 08 — Trích dẫn */}
+      {/* 07 — Trích dẫn */}
       <section className="section" id="trich-dan">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="08 · Thư viện trích dẫn"
+              kicker="07 · Thư viện trích dẫn"
               title="Những lời nói đi cùng năm tháng"
               desc="Mỗi trích dẫn gắn nguồn và liên kết đối chiếu để bạn tự kiểm chứng."
             />
@@ -213,7 +168,7 @@ export default function Home() {
           <Reveal>
             <Quotes />
           </Reveal>
-          <p className="map-note" style={{ marginTop: 18 }}>
+          <p className="section-note" style={{ marginTop: 18 }}>
             💡 Bản ghi âm lịch sử giọng Chủ tịch Hồ Chí Minh đọc Lời kêu gọi toàn quốc kháng chiến
             hiện được lưu giữ tại Đài Tiếng nói Việt Nam và Bảo tàng Hồ Chí Minh — xem mục{' '}
             <a href="#am-thanh">Âm thanh lịch sử</a> để nghe trực tiếp từ nguồn chính thống.
@@ -223,12 +178,12 @@ export default function Home() {
 
       <hr className="divider" />
 
-      {/* 09 — Kiểm chứng */}
+      {/* 08 — Kiểm chứng */}
       <section className="section" id="kiem-chung">
         <div className="container">
           <Reveal>
             <SectionHeading
-              kicker="09 · Bảng kiểm chứng"
+              kicker="08 · Bảng kiểm chứng"
               title="Đối chiếu tư liệu"
               desc="Bảng tra cứu 12 thông tin then chốt kèm bằng chứng trong tài liệu và liên kết nguồn mở để đối chiếu."
             />

@@ -131,7 +131,7 @@ export default function AudioArchive() {
           <ClipCard key={clip.id} clip={clip} />
         ))}
       </div>
-      <p className="map-note">
+      <p className="section-note">
         Website không tự host file âm thanh: các trình phát trên đây gọi trực tiếp file từ máy chủ
         hochiminh.vn (Văn phòng Trung ương Đảng) và luôn kèm nút mở tại nguồn. Nếu nguồn thay đổi
         đường dẫn hoặc chặn nhúng, nút “Nghe tại nguồn” vẫn hoạt động.

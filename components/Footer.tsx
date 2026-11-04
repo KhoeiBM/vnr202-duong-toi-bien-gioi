@@ -17,10 +17,10 @@ export default function Footer() {
         </div>
         <div className="footer-links">
           <a href="#thoi-gian">Dòng thời gian</a>
-          <a href="#ban-do">Bản đồ</a>
           <a href="#quiz">Trắc nghiệm</a>
           <a href="#flashcard">Flashcard</a>
           <a href="#lo-trinh">Lộ trình 7 ngày</a>
+          <a href="#am-thanh">Âm thanh lịch sử</a>
           <a href="#trich-dan">Thư viện trích dẫn</a>
           <a href="#kiem-chung">Bảng kiểm chứng</a>
         </div>

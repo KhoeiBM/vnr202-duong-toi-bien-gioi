@@ -2,6 +2,14 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import quizData from '@/data/quiz.json';
+import { useAuth } from '@/lib/auth-context';
+import {
+  computeBest,
+  loadBestLocal,
+  loadLocalHistory,
+  makeResult,
+  saveQuizResult,
+} from '@/lib/quiz-store';
 
 type Mode = 'practice' | 'exam';
 type Phase = 'config' | 'playing' | 'result';
@@ -70,16 +78,22 @@ export default function Quiz() {
   const [revealed, setRevealed] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(0);
   const [best, setBest] = useState<number | null>(null);
+  const [savedFlag, setSavedFlag] = useState<'saved' | 'local-only' | 'cloud-error' | null>(null);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const startedAtRef = useRef<number>(Date.now());
+  const { user } = useAuth();
+  const userRef = useRef(user);
+  userRef.current = user;
 
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(BEST_KEY);
-      if (raw) setBest(Number(raw));
-    } catch {
-      /* localStorage unavailable */
-    }
+    setBest(loadBestLocal());
+    const onHistory = () => {
+      const b = computeBest(loadLocalHistory());
+      if (b !== null) setBest(b);
+    };
+    window.addEventListener('dtb-history-updated', onHistory);
+    return () => window.removeEventListener('dtb-history-updated', onHistory);
   }, []);
 
   const stopTimer = useCallback(() => {
@@ -108,6 +122,14 @@ export default function Quiz() {
           /* ignore */
         }
       }
+      const result = makeResult({
+        mode,
+        total: listArg.length,
+        correct,
+        pct,
+        seconds: Math.round((Date.now() - startedAtRef.current) / 1000),
+      });
+      void saveQuizResult(result, userRef.current?.uid ?? null).then(setSavedFlag);
       setPhase('result');
     },
     [mode, stopTimer]
@@ -125,6 +147,8 @@ export default function Quiz() {
     setIdx(0);
     setChoice(null);
     setRevealed(false);
+    setSavedFlag(null);
+    startedAtRef.current = Date.now();
     setPhase('playing');
   };
 
@@ -135,7 +159,9 @@ export default function Quiz() {
     setIdx(0);
     setChoice(null);
     setRevealed(false);
+    setSavedFlag(null);
     setSecondsLeft(examMinutes * 60);
+    startedAtRef.current = Date.now();
     setPhase('playing');
     stopTimer();
     timerRef.current = setInterval(() => {
@@ -395,6 +421,24 @@ export default function Quiz() {
               Làm lại
             </button>
           </div>
+
+          <p className="save-status">
+            {savedFlag === 'saved' && '✓ Thành tích đã được lưu vào tài khoản của bạn.'}
+            {savedFlag === 'cloud-error' &&
+              '⚠️ Không lưu được lên máy chủ (kiểm tra Firestore Rules) — dữ liệu vẫn được giữ trên máy này.'}
+            {savedFlag === 'local-only' && (
+              <>
+                💡 Bài làm được lưu trên máy này.{' '}
+                <button
+                  className="save-login-link"
+                  onClick={() => window.dispatchEvent(new CustomEvent('dtb-open-auth'))}
+                >
+                  Đăng nhập
+                </button>{' '}
+                để lưu thành tích lên tài khoản và dùng trên nhiều thiết bị.
+              </>
+            )}
+          </p>
         </div>
       </div>
     );
