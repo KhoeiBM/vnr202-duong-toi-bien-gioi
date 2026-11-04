@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import AccountMenu from './AccountMenu';
 
 const LINKS = [
@@ -39,7 +40,13 @@ export default function Nav() {
     <header className={`nav ${scrolled ? 'is-scrolled' : ''}`}>
       <div className="container nav-inner">
         <a href="#top" className="nav-brand">
-          <span className="nav-mark">ĐB</span>
+          <Image
+            src="/logo.png"
+            alt="Ảnh tư liệu lịch sử 1946–1950"
+            width={34}
+            height={34}
+            className="nav-mark"
+          />
           <span>Đường tới biên giới</span>
         </a>
         <nav className="nav-links" aria-label="Điều hướng chính">
@@ -53,7 +60,9 @@ export default function Nav() {
             </a>
           ))}
         </nav>
-        <AccountMenu />
+        <div className="nav-cta">
+          <AccountMenu />
+        </div>
       </div>
     </header>
   );
