@@ -10,9 +10,8 @@ export default function Hero() {
         </h1>
         <p className="hero-lead">
           Từ tiếng súng đêm 19-12-1946 tại Hà Nội đến thắng lợi Chiến dịch Biên giới Thu Đông
-          1950 — hành trình bốn năm “thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất
-          định không chịu làm nô lệ”. Khám phá qua dòng thời gian, quiz, flashcard và âm thanh
-          lịch sử.
+          1950 — những năm đầu của cuộc kháng chiến toàn quốc chống thực dân Pháp. Khám phá qua
+          dòng thời gian, quiz, flashcard và âm thanh lịch sử.
         </p>
         <div className="hero-actions">
           <a href="#thoi-gian" className="btn btn-primary">

@@ -1,9 +1,20 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <strong className="text-gold">Đường tới biên giới</strong>
+          <div className="footer-brand">
+            <Image
+              src="/logo.png"
+              alt=""
+              width={34}
+              height={34}
+              className="nav-mark"
+            />
+            <strong className="text-gold">Đường tới biên giới</strong>
+          </div>
           <p>
             Website học tập tương tác phỏng theo tài liệu môn Đường lối cách mạng Đảng Cộng sản
             Việt Nam — chương Cuộc kháng chiến toàn quốc (1946–1950) và quá trình tổ chức thực

@@ -213,12 +213,9 @@ button {
   width: 34px;
   height: 34px;
   border-radius: 9px;
+  object-fit: cover;
+  object-position: 50% 30%;
   background: linear-gradient(135deg, var(--red), #7c1c21);
-  display: grid;
-  place-items: center;
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--gold-bright);
   box-shadow: 0 6px 18px rgba(200, 57, 63, 0.4);
   flex-shrink: 0;
 }
@@ -233,7 +230,7 @@ button {
 .nav-links::-webkit-scrollbar { display: none; }
 
 .nav-link {
-  padding: 8px 13px;
+  padding: 8px 10px;
   border-radius: 999px;
   color: var(--text-dim) !important;
   font-size: 0.86rem;
@@ -585,6 +582,21 @@ button {
 }
 
 /* ---------- Auth & account ---------- */
+/* Đẩy nút Đăng nhập sát mép phải màn hình để hàng link không bị che */
+.nav-cta {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: calc((min(var(--maxw), 100vw - 48px) - 100vw) / 2 + 24px);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
 .nav-auth {
   border: 1px solid var(--border-strong);
   background: rgba(212, 162, 78, 0.12);
